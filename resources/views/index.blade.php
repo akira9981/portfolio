@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-<p>仮トップページ</p>
+<p>仮ページ</p>
 @endsection
