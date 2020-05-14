@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/' , 'IndexController@index')->name('index')
+Route::get('/' , 'ReviewController@index')->name('index');
