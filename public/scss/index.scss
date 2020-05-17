@@ -11,13 +11,7 @@
   border: 1px solid #fff;
   margin: 0 auto;
   margin-top: 100px;
-}
-
-.obj01{
   letter-spacing: 2px;
-}
-.start, .changed{
-  display:none;
 }
 
 span{
@@ -32,7 +26,7 @@ span{
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: white;
+  background-color: #fff;
 }
 
 .boxes{
@@ -41,19 +35,17 @@ span{
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
-}
-
-.flex-box{
-  display: flex;
-}
-
-.box{
-  display: inline-block;
-  margin: 0;
-  height: 300px;
-  width: 100px;
-  transform: perspective(350px);
-  border: 1px solid rgba(24, 24, 88, 0.795);
+  .flex-box{
+    display: flex;
+    .box{
+      display: inline-block;
+      margin: 0;
+      height: 300px;
+      width: 100px;
+      transform: perspective(350px);
+      border: 1px solid rgba(24, 24, 88, 0.795);
+    }
+  }
 }
 
 #red{

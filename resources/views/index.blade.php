@@ -2,14 +2,15 @@
 
 @section('content')
 <div class="obj01">
-  <span class="obj01t">T</span>
-  <span class="obj01t">w</span>
-  <span class="obj01t">e</span>
-  <span class="obj01t">e</span>
-  <span class="obj01t">n</span>
-  <span class="obj01t">M</span>
-  <span class="obj01t">a</span>
-  <span class="obj01t">x</span>
+  <span class="obj01t">P</span>
+  <span class="obj01t">o</span>
+  <span class="obj01t">r</span>
+  <span class="obj01t">t</span>
+  <span class="obj01t">f</span>
+  <span class="obj01t">o</span>
+  <span class="obj01t">l</span>
+  <span class="obj01t">i</span>
+  <span class="obj01t">o</span>
   <div id="bgc01"></div>
 </div>
 <div class="boxes">

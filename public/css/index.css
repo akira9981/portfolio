@@ -10,12 +10,7 @@
   border: 1px solid #fff;
   margin: 0 auto;
   margin-top: 100px;
-}
-.obj01 {
   letter-spacing: 2px;
-}
-.start, .changed {
-  display: none;
 }
 span {
   display: inline-block;
@@ -28,7 +23,7 @@ span {
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: white;
+  background-color: #fff;
 }
 .boxes {
   position: absolute;
@@ -37,10 +32,10 @@ span {
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
 }
-.flex-box {
+.boxes .flex-box {
   display: flex;
 }
-.box {
+.boxes .flex-box .box {
   display: inline-block;
   margin: 0;
   height: 300px;

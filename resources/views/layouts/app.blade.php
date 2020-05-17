@@ -15,9 +15,10 @@
 </head>
 <body>
 <header>
+
 </header>
 <main>
-    @yield('content')
+  @yield('content')
 </main>
 <footer>
 </footer>
