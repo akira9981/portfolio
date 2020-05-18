@@ -15,12 +15,12 @@
 </div>
 <div class="boxes">
   <div class="flex-box">
-    <div class="box active" id="red"></div>
-    <div class="box" id="blue"></div>
-    <div class="box" id="yellow"></div>
-    <div class="box" id="green"></div>
-    <div class="box" id="pink"></div>
-    <div class="box" id="purple"></div>
+    <div class="box active" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+    <div class="box" id="box6"></div>
   </div>
 </div>
 <script src="{{ asset('js/tweenmax.js') }}"></script>

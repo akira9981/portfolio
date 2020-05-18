@@ -43,21 +43,21 @@ span {
   transform: perspective(350px);
   border: 1px solid rgba(24, 24, 88, 0.795);
 }
-#red {
+#box1 {
   background: linear-gradient(to right, #0cf 40%, #007d9c);
 }
-#blue {
+#box2 {
   background: linear-gradient(to right, #00a2ff 40%, #00639c);
 }
-#yellow {
+#box3 {
   background: linear-gradient(to right, #07f 40%, #004ba0);
 }
-#green {
+#box4 {
   background: linear-gradient(to right, #002fff 40%, #001b96);
 }
-#pink {
+#box5 {
   background: linear-gradient(to right, #4c00ff 40%, #280086);
 }
-#purple {
+#box6 {
   background: linear-gradient(to right, #6800df 40%, #360074);
 }
