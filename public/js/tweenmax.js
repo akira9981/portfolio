@@ -119,7 +119,7 @@ $('.obj01').on({
     }, 0.07);
   }
 });
-TweenMax.staggerTo(['#red', '#blue', '#yellow', '#green', '#pink', '#purple'], 1.5, {
+TweenMax.staggerTo(['#box1', '#box2', '#box3', '#box4', '#box5', '#box6'], 1.5, {
   rotationX: -180
 }, 0.2);
 $('.box').on({
