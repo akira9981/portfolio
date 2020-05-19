@@ -39,19 +39,26 @@ span{
     display: flex;
     .box{
       display: inline-block;
+      text-align: center;
+      line-height: 300px;
       margin: 0;
       height: 300px;
       width: 100px;
       transform: perspective(350px);
       border: 1px solid rgba(24, 24, 88, 0.795);
     }
+    .active{
+      text-align: center;
+      line-height: 300px;
+    }
   }
 }
 
 #text{
-  font-size: 50px;
+  display: inline-block;
   color: #fff;
   opacity: 0;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #box1{

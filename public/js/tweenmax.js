@@ -119,7 +119,7 @@ $('.obj01').on({
     }, 0.07);
   }
 });
-TweenMax.staggerTo(['#box1', '#box2', '#box3', '#box4', '#box5', '#box6'], 1.5, {
+TweenMax.staggerTo(['#box1', '#box2', '#box3', '#box4', '#box5'], 1.5, {
   rotationX: -360
 }, 0.1);
 $('.box').on({
@@ -140,7 +140,7 @@ $('.box').on({
     TweenMax.to('.box', 0.25, {
       opacity: 0.3
     });
-    TweenMax.to('.active #text', 0.25, {
+    TweenMax.to('.active #text', 0.1, {
       opacity: 1
     });
   },
@@ -158,7 +158,7 @@ $('.box').on({
     TweenMax.to('.box', 0.25, {
       opacity: 1
     });
-    TweenMax.to('#text', 0.25, {
+    TweenMax.to('#text', 0.1, {
       opacity: 0
     });
   }
