@@ -15,7 +15,7 @@
 </div>
 <div class="boxes">
   <div class="flex-box">
-    <div class="box active" id="box1"></div>
+    <div class="box active" id="box1"><h1 id="text">about</h1></div>
     <div class="box" id="box2"></div>
     <div class="box" id="box3"></div>
     <div class="box" id="box4"></div>

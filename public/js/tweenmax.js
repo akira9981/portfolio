@@ -120,8 +120,8 @@ $('.obj01').on({
   }
 });
 TweenMax.staggerTo(['#box1', '#box2', '#box3', '#box4', '#box5', '#box6'], 1.5, {
-  rotationX: -180
-}, 0.2);
+  rotationX: -360
+}, 0.1);
 $('.box').on({
   'mouseenter': function mouseenter() {
     TweenMax.set('.box.active', {
@@ -140,6 +140,9 @@ $('.box').on({
     TweenMax.to('.box', 0.25, {
       opacity: 0.3
     });
+    TweenMax.to('.active #text', 0.25, {
+      opacity: 1
+    });
   },
   'mouseleave': function mouseleave() {
     TweenMax.set('.active', {
@@ -154,6 +157,9 @@ $('.box').on({
     });
     TweenMax.to('.box', 0.25, {
       opacity: 1
+    });
+    TweenMax.to('#text', 0.25, {
+      opacity: 0
     });
   }
 });
