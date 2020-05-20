@@ -2,17 +2,26 @@ TweenMax.to('.opb', 1,
   {
     delay: 0.5,
     ease: 'bounce',
-    top: '50%'
-  }
-);
-
-TweenMax.to('.bbg', 1.5, 
-  {
-    delay: 1,
-    ease: 'power1',
-    opacity: 0,
+    top: '50%',
     onComplete: function(){
-      TweenMax.to('.bbg', {display: "none"});
+      TweenMax.to('.opb', 1, 
+      {
+        height: "100%", 
+        width:"100%",
+        onComplete: function(){
+          TweenMax.to('.bbg', {display: "none"});
+          TweenMax.to('.opb', 1.5,
+            {
+              delay: 0.5,
+              opacity: 0,
+              ease: 'power1',
+              onComplete: function(){
+                TweenMax.to('.opb', {display: "none"});
+              }
+            }
+          );
+        }
+      });
     }
   }
 );

@@ -1,9 +1,8 @@
 .opb {
-  display: block;
   position: absolute;
   top: -70px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   height: 50px;
   width: 50px;
   background-color: #fff;
