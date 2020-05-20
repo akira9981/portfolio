@@ -4,13 +4,14 @@ TweenMax.to('.opb', 1,
     ease: 'bounce',
     top: '50%',
     onComplete: function(){
-      TweenMax.to('.opb', 1, 
+      TweenMax.to('.opb', 0.5, 
       {
+        delay: 0.2,
         height: "100%", 
         width:"100%",
         onComplete: function(){
           TweenMax.to('.bbg', {display: "none"});
-          TweenMax.to('.opb', 1.5,
+          TweenMax.to('.opb', 1,
             {
               delay: 0.5,
               opacity: 0,
