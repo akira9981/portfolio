@@ -14,13 +14,12 @@
   <link href="{{ asset('css/index.css') }}" rel="stylesheet">
 </head>
 <body>
+<div class="bbg">
+</div>
 <header>
-
 </header>
 <main>
   @yield('content')
 </main>
-<footer>
-</footer>
 </body>
 </html>

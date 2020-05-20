@@ -93,6 +93,10 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+TweenMax.to('.bbg', 4, {
+  delay: 1,
+  opacity: 0
+});
 $('.obj01').on({
   'mouseenter': function mouseenter() {
     TweenMax.to('#bgc01', 0.25, {

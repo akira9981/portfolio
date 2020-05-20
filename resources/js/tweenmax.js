@@ -1,3 +1,5 @@
+TweenMax.to('.bbg', 4, {delay: 1, opacity: 0});
+
 $('.obj01').on({
   'mouseenter': function(){
       TweenMax.to('#bgc01', 0.25, {width: "100%" });
