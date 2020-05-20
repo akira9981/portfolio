@@ -147,7 +147,7 @@ $('.obj01').on({
   }
 });
 TweenMax.staggerTo(['#box1', '#box2', '#box3', '#box4', '#box5'], 1.5, {
-  delay: 1,
+  delay: 3,
   rotationX: -360
 }, 0.1);
 $('.box').on({
@@ -178,9 +178,7 @@ $('.box').on({
       height: 300,
       y: 10,
       z: 0,
-      zIndex: 0
-    });
-    TweenMax.to('.box', 0.25, {
+      zIndex: 0,
       opacity: 1
     });
     TweenMax.to('#text', 0.1, {

@@ -40,7 +40,7 @@ $('.obj01').on({
   }
 });
 
-TweenMax.staggerTo(['#box1','#box2','#box3','#box4', '#box5'], 1.5, {delay: 1,rotationX: -360}, 0.1);
+TweenMax.staggerTo(['#box1','#box2','#box3','#box4', '#box5'], 1.5, {delay: 3,rotationX: -360}, 0.1);
 
 $('.box').on({
   'mouseenter': function(){
@@ -51,8 +51,7 @@ $('.box').on({
     },
   'mouseleave': function(){
       TweenMax.set('.active', {className:"+=box"});
-      TweenMax.to('.box', 0.25, {width: 100, height: 300, y: 10, z: 0 ,zIndex: 0});
-      TweenMax.to('.box', 0.25, {opacity: 1});
+      TweenMax.to('.box', 0.25, {width: 100, height: 300, y: 10, z: 0 ,zIndex: 0,opacity: 1});
       TweenMax.to('#text', 0.1, {opacity: 0});
   }
 });
