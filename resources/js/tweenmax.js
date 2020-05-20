@@ -1,4 +1,13 @@
-TweenMax.to('.bbg', 4, {delay: 1, opacity: 0});
+TweenMax.to('.bbg', 1.5, 
+  {
+    delay: 1,
+    ease: 'expo',
+    opacity: 0,
+    onComplete: function(){
+      TweenMax.to('.bbg', {display: "none"});
+    }
+  }
+);
 
 $('.obj01').on({
   'mouseenter': function(){
@@ -13,7 +22,7 @@ $('.obj01').on({
   }
 });
 
-TweenMax.staggerTo(['#box1','#box2','#box3','#box4', '#box5'], 1.5, {rotationX: -360}, 0.1);
+TweenMax.staggerTo(['#box1','#box2','#box3','#box4', '#box5'], 1.5, {delay: 1,rotationX: -360}, 0.1);
 
 $('.box').on({
   'mouseenter': function(){

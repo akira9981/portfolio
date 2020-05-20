@@ -93,9 +93,15 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-TweenMax.to('.bbg', 4, {
+TweenMax.to('.bbg', 1.5, {
   delay: 1,
-  opacity: 0
+  ease: 'expo',
+  opacity: 0,
+  onComplete: function onComplete() {
+    TweenMax.to('.bbg', {
+      display: "none"
+    });
+  }
 });
 $('.obj01').on({
   'mouseenter': function mouseenter() {
@@ -124,6 +130,7 @@ $('.obj01').on({
   }
 });
 TweenMax.staggerTo(['#box1', '#box2', '#box3', '#box4', '#box5'], 1.5, {
+  delay: 1,
   rotationX: -360
 }, 0.1);
 $('.box').on({
