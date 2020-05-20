@@ -93,6 +93,11 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+TweenMax.to('.opb', 1, {
+  delay: 0.5,
+  ease: 'bounce',
+  top: '50%'
+});
 TweenMax.to('.bbg', 1.5, {
   delay: 1,
   ease: 'power1',
