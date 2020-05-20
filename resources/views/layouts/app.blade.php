@@ -14,8 +14,8 @@
   <link href="{{ asset('css/index.css') }}" rel="stylesheet">
 </head>
 <body>
-<div class="bbg">
-</div>
+<div class="opb"></div>
+<div class="bbg"></div>
 <header>
 </header>
 <main>
