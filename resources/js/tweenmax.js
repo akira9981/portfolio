@@ -1,7 +1,7 @@
 TweenMax.to('.bbg', 1.5, 
   {
     delay: 1,
-    ease: 'expo',
+    ease: 'power1',
     opacity: 0,
     onComplete: function(){
       TweenMax.to('.bbg', {display: "none"});
@@ -26,7 +26,6 @@ TweenMax.staggerTo(['#box1','#box2','#box3','#box4', '#box5'], 1.5, {delay: 1,ro
 
 $('.box').on({
   'mouseenter': function(){
-      TweenMax.set('.box.active', {className:"-=active"});
       TweenMax.set((this), {className:"+=active"});
       TweenMax.to('.active', 0.25, {width: 350, height: 350,y: -10 ,z: 60, zIndex: 1});
       TweenMax.to('.box', 0.25, {opacity: 0.3});
