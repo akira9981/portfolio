@@ -18,7 +18,7 @@ header .miniBoxes .flex-box .miniBox {
   margin: 0;
   height: 30px;
   width: 10px;
-  transform: perspective(350px);
+  transform: perspective(50px);
   border: 1px solid rgba(24, 24, 88, 0.795);
 }
 #box1 {

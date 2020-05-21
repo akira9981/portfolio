@@ -120,6 +120,11 @@ TweenMax.to('.opb', 1, {
     });
   }
 });
+TweenMax.staggerTo('.miniBox', 5, {
+  ease: "expo",
+  repeat: -1,
+  rotationX: -180
+}, 0.1);
 $('.obj').on({
   'mouseenter': function mouseenter() {
     TweenMax.to('#bgc', 0.25, {
