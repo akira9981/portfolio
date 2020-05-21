@@ -1,5 +1,41 @@
 header {
+  position: relative;
   display: block;
-  height: 30px;
+  height: 50px;
   width: 100%;
+}
+header .miniBoxes {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+header .miniBoxes .flex-box {
+  display: flex;
+}
+header .miniBoxes .flex-box .miniBox {
+  display: inline-block;
+  margin: 0;
+  height: 30px;
+  width: 10px;
+  transform: perspective(350px);
+  border: 1px solid rgba(24, 24, 88, 0.795);
+}
+#box1 {
+  background: linear-gradient(to right, #0cf 40%, #007d9c);
+}
+#box2 {
+  background: linear-gradient(to right, #00a2ff 40%, #00639c);
+}
+#box3 {
+  background: linear-gradient(to right, #07f 40%, #004ba0);
+}
+#box4 {
+  background: linear-gradient(to right, #002fff 40%, #001b96);
+}
+#box5 {
+  background: linear-gradient(to right, #4c00ff 40%, #280086);
+}
+#box6 {
+  background: linear-gradient(to right, #6800df 40%, #360074);
 }

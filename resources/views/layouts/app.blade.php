@@ -23,6 +23,15 @@
 <div class="opb"></div>
 <div class="bbg"></div>
 <header>
+  <div class="miniBoxes">
+    <div class="flex-box">
+      <div class="miniBox" id="box1"></div>
+      <div class="miniBox" id="box2"></div>
+      <div class="miniBox" id="box3"></div>
+      <div class="miniBox" id="box4"></div>
+      <div class="miniBox" id="box5"></div>
+    </div>
+  </div>
 </header>
 <main>
   @yield('content')
