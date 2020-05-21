@@ -27,20 +27,20 @@ TweenMax.to('.opb', 1,
   }
 );
 
-$('.obj01').on({
+$('.obj').on({
   'mouseenter': function(){
-      TweenMax.to('#bgc01', 0.25, {width: "100%" });
-      TweenMax.to('.obj01', 0.25, {border: "1px solid gray",color: "gray"});
-      TweenMax.staggerTo('.obj01t', 0.25, {rotationX: 360}, 0.07);
+      TweenMax.to('#bgc', 0.25, {width: "100%" });
+      TweenMax.to('.obj', 0.25, {border: "1px solid gray",color: "gray"});
+      TweenMax.staggerTo('.objt', 0.25, {rotationX: 360}, 0.07);
   },
   'mouseleave': function(){
-      TweenMax.to('#bgc01', 0.25, {width: "0%" });
-      TweenMax.to('.obj01', 0.25, {border: "1px solid white",color: "white"});
-      TweenMax.staggerTo('.obj01t', 0.25, {rotationX: -360}, 0.07);
+      TweenMax.to('#bgc', 0.25, {width: "0%" });
+      TweenMax.to('.obj', 0.25, {border: "1px solid white",color: "white"});
+      TweenMax.staggerTo('.objt', 0.25, {rotationX: -360}, 0.07);
   }
 });
 
-TweenMax.staggerTo(['#box1','#box2','#box3','#box4', '#box5'], 1.5, {delay: 3,rotationX: -360}, 0.1);
+TweenMax.staggerTo('.box', 1.5, {delay: 3,rotationX: -360}, 0.1);
 
 $('.box').on({
   'mouseenter': function(){

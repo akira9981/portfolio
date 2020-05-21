@@ -9,8 +9,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/obj.css') }}" rel="stylesheet">  
   <link href="{{ asset('css/index.css') }}" rel="stylesheet">
   <link href="{{ asset('css/opening.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/header.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/about.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/skill.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/works.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/blog.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
 </head>
 <body>
 <div class="opb"></div>

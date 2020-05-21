@@ -1,39 +1,18 @@
-.obj01 {
-  color: white;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  z-index: 100;
-  padding: 10px;
-  width: 200px;
-  border: 1px solid #fff;
-  margin: 0 auto;
-  letter-spacing: 2px;
+.index {
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  padding-top: 30px;
 }
-span {
-  display: inline-block;
-}
-#bgc01 {
-  z-index: -1;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background-color: #fff;
-}
-.boxes {
+.index .boxes {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
-.boxes .flex-box {
+.index .boxes .flex-box {
   display: flex;
 }
-.boxes .flex-box .box {
+.index .boxes .flex-box .box {
   display: inline-block;
   text-align: center;
   line-height: 300px;
@@ -43,31 +22,31 @@ span {
   transform: perspective(350px);
   border: 1px solid rgba(24, 24, 88, 0.795);
 }
-.boxes .flex-box .active {
+.index .boxes .flex-box .active {
   text-align: center;
   line-height: 300px;
 }
-#text {
+.index #text {
   display: inline-block;
   color: #fff;
   opacity: 0;
   font-family: 'Times New Roman', Times, serif;
 }
-#box1 {
+.index #box1 {
   background: linear-gradient(to right, #0cf 40%, #007d9c);
 }
-#box2 {
+.index #box2 {
   background: linear-gradient(to right, #00a2ff 40%, #00639c);
 }
-#box3 {
+.index #box3 {
   background: linear-gradient(to right, #07f 40%, #004ba0);
 }
-#box4 {
+.index #box4 {
   background: linear-gradient(to right, #002fff 40%, #001b96);
 }
-#box5 {
+.index #box5 {
   background: linear-gradient(to right, #4c00ff 40%, #280086);
 }
-#box6 {
+.index #box6 {
   background: linear-gradient(to right, #6800df 40%, #360074);
 }

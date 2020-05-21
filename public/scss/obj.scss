@@ -1,0 +1,26 @@
+.obj{
+  color: white;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  z-index: 100;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+span{
+  display: inline-block;
+}
+#bgc{
+  z-index: -1;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #fff;
+}
