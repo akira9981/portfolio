@@ -25,11 +25,11 @@
 <header>
   <div class="miniBoxes">
     <div class="flex-box">
-      <div class="miniBox" id="box1"></div>
-      <div class="miniBox" id="box2"></div>
-      <div class="miniBox" id="box3"></div>
-      <div class="miniBox" id="box4"></div>
-      <div class="miniBox" id="box5"></div>
+      <div class="miniBox" id="about"></div>
+      <div class="miniBox" id="skill"></div>
+      <div class="miniBox" id="works"></div>
+      <div class="miniBox" id="blog"></div>
+      <div class="miniBox" id="contact"></div>
     </div>
   </div>
 </header>

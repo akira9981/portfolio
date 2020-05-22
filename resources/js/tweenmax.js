@@ -60,9 +60,12 @@ $('.box').on({
 
 $('.box').on({
   'click': function(){
+      var pageId = $(this).attr('id');
+      var page = '#' + pageId ;
+      console.log(page);
       TweenMax.to('.bbg', 1, {display: "block",ease: "bounce",top: "0vh"});
       TweenMax.to('.index',{display: "none"} )
-      TweenMax.to((this),
+      TweenMax.to((page),
       {
         delay: 1,
         display: "block",
