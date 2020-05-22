@@ -16,11 +16,11 @@
   </div>
   <div class="boxes">
     <div class="flex-box">
-      <div class="box" id="box1"><h1 id="text">ABOUT</h1></div>
-      <div class="box" id="box2"><h1 id="text">SKILL</h1></div>
-      <div class="box" id="box3"><h1 id="text">WORKS</h1></div>
-      <div class="box" id="box4"><h1 id="text">BLOG</h1></div>
-      <div class="box" id="box5"><h1 id="text">CONTACT</h1></div>
+      <div class="box" id="about"><h1 id="text">ABOUT</h1></div>
+      <div class="box" id="skill"><h1 id="text">SKILL</h1></div>
+      <div class="box" id="works"><h1 id="text">WORKS</h1></div>
+      <div class="box" id="blog"><h1 id="text">BLOG</h1></div>
+      <div class="box" id="contact"><h1 id="text">CONTACT</h1></div>
     </div>
   </div>
 </div>

@@ -31,28 +31,27 @@
     opacity: 0;
     font-family: 'Times New Roman', Times, serif;
   }
+}
+#about{
+  background: linear-gradient(to right,#00ccff 40%, #007d9c);
+}
 
-  #about{
-    background: linear-gradient(to right,#00ccff 40%, #007d9c);
-  }
+#skill{
+  background: linear-gradient(to right, #00a2ff 40%, #00639c);
+}
 
-  #skill{
-    background: linear-gradient(to right, #00a2ff 40%, #00639c);
-  }
+#works{
+  background: linear-gradient(to right, #0077ff 40%, #004ba0);
+}
 
-  #works{
-    background: linear-gradient(to right, #0077ff 40%, #004ba0);
-  }
+#blog{
+  background: linear-gradient(to right, #002fff 40%, #001b96);
+}
 
-  #blog{
-    background: linear-gradient(to right, #002fff 40%, #001b96);
-  }
+#contact{
+  background: linear-gradient(to right, #4c00ff 40%, #280086);
+}
 
-  #contact{
-    background: linear-gradient(to right, #4c00ff 40%, #280086);
-  }
-
-  #box6{
-    background: linear-gradient(to right, #6800df 40%, #360074);
-  }
+#box6{
+  background: linear-gradient(to right, #6800df 40%, #360074);
 }

@@ -195,8 +195,7 @@ $('.box').on({
 $('.box').on({
   'click': function click() {
     var pageId = $(this).attr('id');
-    var page = '#' + pageId;
-    console.log(page);
+    var page = '.' + pageId;
     TweenMax.to('.bbg', 1, {
       display: "block",
       ease: "bounce",

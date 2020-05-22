@@ -32,21 +32,21 @@
   opacity: 0;
   font-family: 'Times New Roman', Times, serif;
 }
-.index #box1 {
+#about {
   background: linear-gradient(to right, #0cf 40%, #007d9c);
 }
-.index #box2 {
+#skill {
   background: linear-gradient(to right, #00a2ff 40%, #00639c);
 }
-.index #box3 {
+#works {
   background: linear-gradient(to right, #07f 40%, #004ba0);
 }
-.index #box4 {
+#blog {
   background: linear-gradient(to right, #002fff 40%, #001b96);
 }
-.index #box5 {
+#contact {
   background: linear-gradient(to right, #4c00ff 40%, #280086);
 }
-.index #box6 {
+#box6 {
   background: linear-gradient(to right, #6800df 40%, #360074);
 }
