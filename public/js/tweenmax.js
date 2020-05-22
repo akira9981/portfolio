@@ -93,9 +93,9 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-TweenMax.to('.opb', 1, {
+TweenMax.to('.opb', 1.25, {
   delay: 0.5,
-  ease: 'bounce',
+  ease: 'elastic',
   top: '50%',
   onComplete: function onComplete() {
     TweenMax.to('.opb', 0.5, {
@@ -104,6 +104,7 @@ TweenMax.to('.opb', 1, {
       width: "100%",
       onComplete: function onComplete() {
         TweenMax.to('.bbg', {
+          top: "100vh",
           display: "none"
         });
         TweenMax.to('.opb', 1, {
@@ -188,6 +189,15 @@ $('.box').on({
     });
     TweenMax.to('#text', 0.1, {
       opacity: 0
+    });
+  }
+});
+$('.box').on({
+  'click': function click() {
+    TweenMax.to('.bbg', 1, {
+      display: "block",
+      ease: "bounce",
+      top: "0vh"
     });
   }
 });

@@ -1,7 +1,7 @@
-TweenMax.to('.opb', 1,
+TweenMax.to('.opb', 1.25,
   {
     delay: 0.5,
-    ease: 'bounce',
+    ease: 'elastic',
     top: '50%',
     onComplete: function(){
       TweenMax.to('.opb', 0.5, 
@@ -10,7 +10,7 @@ TweenMax.to('.opb', 1,
         height: "100%", 
         width:"100%",
         onComplete: function(){
-          TweenMax.to('.bbg', {display: "none"});
+          TweenMax.to('.bbg', {top: "100vh", display: "none"});
           TweenMax.to('.opb', 1,
             {
               delay: 0.5,
@@ -56,4 +56,10 @@ $('.box').on({
       TweenMax.to('.box', 0.25, {width: 100, height: 300, y: 10, z: 0 ,zIndex: 0,opacity: 1});
       TweenMax.to('#text', 0.1, {opacity: 0});
   }
+});
+
+$('.box').on({
+  'click': function(){
+      TweenMax.to('.bbg', 1, {display: "block",ease: "bounce", top: "0vh"});
+    }
 });
