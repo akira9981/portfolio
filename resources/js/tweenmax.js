@@ -61,12 +61,13 @@ $('.box').on({
 $('.box').on({
   'click': function(){
       TweenMax.to('.bbg', 1, {display: "block",ease: "bounce",top: "0vh"});
-      TweenMax.to('.index',
+      TweenMax.to('.index',{display: "none"} )
+      TweenMax.to((this),
       {
         delay: 1,
-        display: "none",
+        display: "block",
         onComplete: function(){
-          TweenMax.to('.bbg',1,{opacity: 0} );
+          TweenMax.to('.bbg',1,{opacity: 0, display: "none"} );
         }
       });
   }

@@ -200,11 +200,15 @@ $('.box').on({
       top: "0vh"
     });
     TweenMax.to('.index', {
+      display: "none"
+    });
+    TweenMax.to(this, {
       delay: 1,
-      display: "none",
+      display: "block",
       onComplete: function onComplete() {
         TweenMax.to('.bbg', 1, {
-          opacity: 0
+          opacity: 0,
+          display: "none"
         });
       }
     });
