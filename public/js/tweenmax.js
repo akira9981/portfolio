@@ -208,6 +208,9 @@ $('.box').on({
       delay: 1,
       display: "block",
       onComplete: function onComplete() {
+        TweenMax.to('.miniBoxes', {
+          display: "block"
+        });
         TweenMax.to('.bbg', 1, {
           opacity: 0,
           display: "none"
