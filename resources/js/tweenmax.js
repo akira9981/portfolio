@@ -70,7 +70,37 @@ $('.box').on({
       display: "block",
       onComplete: function(){
         TweenMax.to('.miniBoxes',{display: "block"});
-        TweenMax.to('.bbg',1,{opacity: 0, display: "none"} );
+        TweenMax.to('.bbg',1,
+        {
+          opacity: 0,
+          display: "none",
+          onComplete: function(){
+            TweenMax.to('.bbg', {top: "100vh", opacity: 1})
+          }
+        });
+      }
+    });
+  }
+});
+
+$('.miniBoxes').on({
+  'click': function(){
+    TweenMax.to('.bbg', 1, {display: "block",ease: "bounce",top: "0vh"});
+    TweenMax.to('#content',{delay: 0.5, display: "none"});
+    TweenMax.to('.miniBoxes',{delay: 0.5, display: "none"});
+    TweenMax.to('.index',
+    {
+      delay: 1,
+      display: "block",
+      onComplete: function(){
+        TweenMax.to('.bbg',1,
+        {
+          opacity: 0,
+          display: "none",
+          onComplete: function(){
+            TweenMax.to('.bbg', {top: "100vh", opacity: 1})
+          }
+        });
       }
     });
   }

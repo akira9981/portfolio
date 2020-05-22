@@ -25,7 +25,7 @@
   </div>
 </div>
 
-<div class="about">
+<div class="about" id="content">
   <div class="obj">
     <span class="objt">A</span>
     <span class="objt">b</span>
@@ -36,7 +36,7 @@
   </div>
 </div>
 
-<div class="skill">
+<div class="skill" id="content">
   <div class="obj">
     <span class="objt">S</span>
     <span class="objt">k</span>
@@ -47,7 +47,7 @@
   </div>
 </div>
 
-<div class="works">
+<div class="works" id="content">
   <div class="obj">
     <span class="objt">W</span>
     <span class="objt">o</span>
@@ -58,7 +58,7 @@
   </div>
 </div>
 
-<div class="blog">
+<div class="blog" id="content">
   <div class="obj">
     <span class="objt">B</span>
     <span class="objt">l</span>
@@ -68,7 +68,7 @@
   </div>
 </div>
 
-<div class="contact">
+<div class="contact" id="content">
   <div class="obj">
     <span class="objt">C</span>
     <span class="objt">o</span>
