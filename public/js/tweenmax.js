@@ -199,6 +199,15 @@ $('.box').on({
       ease: "bounce",
       top: "0vh"
     });
+    TweenMax.to('.index', {
+      delay: 1,
+      display: "none",
+      onComplete: function onComplete() {
+        TweenMax.to('.bbg', 1, {
+          opacity: 0
+        });
+      }
+    });
   }
 });
 

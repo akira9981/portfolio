@@ -60,6 +60,14 @@ $('.box').on({
 
 $('.box').on({
   'click': function(){
-      TweenMax.to('.bbg', 1, {display: "block",ease: "bounce", top: "0vh"});
-    }
+      TweenMax.to('.bbg', 1, {display: "block",ease: "bounce",top: "0vh"});
+      TweenMax.to('.index',
+      {
+        delay: 1,
+        display: "none",
+        onComplete: function(){
+          TweenMax.to('.bbg',1,{opacity: 0} );
+        }
+      });
+  }
 });
