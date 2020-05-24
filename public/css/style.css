@@ -27,7 +27,7 @@ body {
   width: 100%;
   margin: 0;
   font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
-  background: linear-gradient(25deg, rgba(255, 0, 0, 0.418), rgba(82, 243, 255, 0.623)),url("/images/bluesky.jpg");
+  background-image: linear-gradient(25deg, rgba(255, 0, 0, 0.418), rgba(82, 243, 255, 0.623)),url("/images/bluesky.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;

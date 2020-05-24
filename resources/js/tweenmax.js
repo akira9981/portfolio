@@ -64,6 +64,8 @@ $('.box').on({
     var page = '.' + pageId ;
     TweenMax.to('.bbg', 1, {display: "block",ease: "bounce",top: "0vh"});
     TweenMax.to('.index',{display: "none"});
+    TweenMax.to('body',{delay: 1, backgroundImage: "url('/images/ocean.jpg')",
+    });
     TweenMax.to((page),
     {
       delay: 1,
@@ -88,6 +90,7 @@ $('.miniBoxes').on({
     TweenMax.to('.bbg', 1, {display: "block",ease: "bounce",top: "0vh"});
     TweenMax.to('#content',{delay: 0.5, display: "none"});
     TweenMax.to('.miniBoxes',{delay: 0.5, display: "none"});
+    TweenMax.to('body', {delay: 1, backgroundImage: "linear-gradient(25deg, rgba(255, 0, 0, 0.418), rgba(82, 243, 255, 0.623)),url('/images/bluesky.jpg')"});
     TweenMax.to('.index',
     {
       delay: 1,
