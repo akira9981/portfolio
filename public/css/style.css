@@ -42,6 +42,14 @@ main {
   display: block;
 }
 
+
+.mainContent{
+  display: block;
+  min-height: calc(100vh - 150px);
+  width: 90%;
+  margin: 10px auto 0;
+  background-color: rgba(0, 0, 0, 0.692);
+}
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.

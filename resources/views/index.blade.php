@@ -34,6 +34,7 @@
     <span class="objt">t</span>
     <div id="bgc"></div>
   </div>
+  <div class="mainContent"></div>
 </div>
 
 <div class="skill" id="content">
@@ -45,6 +46,7 @@
     <span class="objt">l</span>
     <div id="bgc"></div>
   </div>
+  <div class="mainContent"></div>
 </div>
 
 <div class="works" id="content">
@@ -56,6 +58,7 @@
     <span class="objt">s</span>
     <div id="bgc"></div>
   </div>
+  <div class="mainContent"></div>
 </div>
 
 <div class="blog" id="content">
@@ -66,6 +69,7 @@
     <span class="objt">g</span>
     <div id="bgc"></div>
   </div>
+  <div class="mainContent"></div>
 </div>
 
 <div class="contact" id="content">
@@ -79,6 +83,7 @@
     <span class="objt">t</span>
     <div id="bgc"></div>
   </div>
+  <div class="mainContent"></div>
 </div>
 
 <script src="{{ asset('js/tweenmax.js') }}"></script>
