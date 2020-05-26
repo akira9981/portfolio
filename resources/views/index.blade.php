@@ -46,7 +46,42 @@
     <span class="objt">l</span>
     <div id="bgc"></div>
   </div>
-  <div class="mainContent"></div>
+  <div class="mainContent">
+    <div class="skillIcons">
+      <div class="icon" id="html">
+        <i class="fab fa-html5"></i>
+        <p>HTML</p>
+      </div>
+      <div class="icon" id="css">
+        <i class="fab fa-css3-alt"></i>
+        <p>CSS</p>
+      </div>
+      <div class="icon" id="sass">
+        <i class="fab fa-sass"></i>
+        <p>Sass</p>
+      </div>
+      <div class="icon" id="javascript">
+        <i class="fab fa-js"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="icon" id="php">
+        <i class="fab fa-php"></i>
+        <p>PHP</p>
+      </div>
+      <div class="icon" id="laravel">
+        <i class="fab fa-laravel"></i>
+        <p>Laravel</p>
+      </div>
+      <div class="icon" id="aws">
+        <i class="fab fa-aws"></i>
+        <p>AWS</p>
+      </div>
+      <div class="icon" id="github">
+        <i class="fab fa-github"></i>
+        <p>GitHub</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="works" id="content">

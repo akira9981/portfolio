@@ -3,4 +3,48 @@
   min-height: calc(100vh - 80px);
   width: 100%;
   padding-top: 30px;
+  .mainContent{
+    .skillIcons{
+      text-align: center;
+      .icon{
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        margin: 60px 30px;
+        i{
+          font-size: 150px;
+        }
+        p{
+          color:#fff;
+          font-size: 30px;
+          font-family: 'Times New Roman', Times, serif;
+        }
+      }
+      #html{
+        color: rgb(227, 79, 38);
+      }
+      #css{
+        color: rgb(0, 188, 242);
+      }
+      #sass{
+        color: rgb(255, 192, 203);
+      }
+      #javascript{
+        color: rgb(255, 252, 73);
+      }
+      #php{
+        color: rgb(90, 73, 161);
+      }
+      #laravel{
+        color: rgb(255, 133, 102);
+      }
+      #aws{
+        color: rgb(255, 128, 128);
+      }
+      #github{
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
 }

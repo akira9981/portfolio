@@ -4,3 +4,45 @@
   width: 100%;
   padding-top: 30px;
 }
+.skill .mainContent .skillIcons {
+  text-align: center;
+}
+.skill .mainContent .skillIcons .icon {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 60px 30px;
+}
+.skill .mainContent .skillIcons .icon i {
+  font-size: 150px;
+}
+.skill .mainContent .skillIcons .icon p {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.skill .mainContent .skillIcons #html {
+  color: #e34f26;
+}
+.skill .mainContent .skillIcons #css {
+  color: #00bcf2;
+}
+.skill .mainContent .skillIcons #sass {
+  color: #ffc0cb;
+}
+.skill .mainContent .skillIcons #javascript {
+  color: #fffc49;
+}
+.skill .mainContent .skillIcons #php {
+  color: #5a49a1;
+}
+.skill .mainContent .skillIcons #laravel {
+  color: #ff8566;
+}
+.skill .mainContent .skillIcons #aws {
+  color: #ff8080;
+}
+.skill .mainContent .skillIcons #github {
+  color: #fff;
+}

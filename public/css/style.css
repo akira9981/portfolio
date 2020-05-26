@@ -49,6 +49,7 @@ main {
   width: 90%;
   margin: 10px auto 0;
   background-color: rgba(0, 0, 0, 0.692);
+  border: 1px solid rgb(255, 255, 255);
 }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
