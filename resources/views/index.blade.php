@@ -104,7 +104,13 @@
     <span class="objt">g</span>
     <div id="bgc"></div>
   </div>
-  <div class="mainContent"></div>
+  <div class="mainContent">
+    <div class="worksContener">
+      <div class="workBox"></div>
+      <div class="workBox"></div>
+      <div class="workBox"></div>
+    </div>
+  </div>
 </div>
 
 <div class="contact" id="content">
