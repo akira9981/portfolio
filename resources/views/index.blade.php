@@ -93,7 +93,25 @@
     <span class="objt">s</span>
     <div id="bgc"></div>
   </div>
-  <div class="mainContent"></div>
+  <div class="mainContent">
+    <div class="worksContener">
+      <div class="workBox">
+        <i class="fas fa-headphones"></i>
+        <p>楽曲レヴューサイト[Laravel]</p>
+        <h1>StockSound</h1>
+      </div>
+      <div class="workBox">
+        <i class="fas fa-chalkboard"></i>
+        <p>ホワイトボード型　ToDoリスト[Laravel]</p>
+        <h1>Memolist</h1>
+      </div>
+      <div class="workBox">
+        <i class="fas fa-shopping-cart"></i>
+        <p>TECH::CAMP チーム開発課題[Rails]</p>
+        <h1>Mercari clone</h1>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="blog" id="content">
@@ -104,13 +122,7 @@
     <span class="objt">g</span>
     <div id="bgc"></div>
   </div>
-  <div class="mainContent">
-    <div class="worksContener">
-      <div class="workBox"></div>
-      <div class="workBox"></div>
-      <div class="workBox"></div>
-    </div>
-  </div>
+  <div class="mainContent"></div>
 </div>
 
 <div class="contact" id="content">
