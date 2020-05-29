@@ -8,16 +8,25 @@
   text-align: center;
   overflow: scroll;
 }
-.works .worksContener .workBox {
+.works .worksContener .workText {
+  position: relative;
+  z-index: 10;
   padding-top: 20px;
   display: inline-block;
   height: 200px;
   width: 400px;
   text-align: center;
-  margin: 60px 30px;
   color: #fff;
   border: 1px solid #fff;
 }
-.works .worksContener .workBox i {
+.works .worksContener .workText i {
   font-size: 80px;
+}
+.works .worksContener .workPhoto {
+  z-index: 0;
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  background-color: pink;
 }
