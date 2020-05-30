@@ -111,11 +111,13 @@ $('.miniBoxes').on({
 
 $('.rotateBox').on({
   'mouseenter': function(){
-    TweenMax.to('.workPhoto', 0.5,{rotationY: "0deg",opacity: 1});
-    TweenMax.to('.workText', 0.5, {rotationY: "-180deg", opacity: 0});
+    $(this).attr('id', "workA");
+    TweenMax.to('#workA .workText', 0.5, {opacity: 0});
+    TweenMax.to('#workA .workPhoto', 0.5,{opacity: 1});
   },
   'mouseleave': function(){
-    TweenMax.to('.workPhoto', 0.5, {rotationY: "-180deg",opacity: 0});
-    TweenMax.to('.workText', 0.5, {rotationY: "0deg", opacity: 1});
+    TweenMax.to('#workA .workPhoto', 0.5, {opacity: 0});
+    TweenMax.to('#workA .workText', 0.5, {opacity: 1});
+    $(this).removeAttr('id', "workA");
   }
 });

@@ -11,6 +11,7 @@
       height: 200px;
       width: 400px;
       margin: 60px 30px;
+      border: 1px solid rgb(255, 255, 255);
       .workText{
         position: absolute;
         opacity: 1;
@@ -20,9 +21,6 @@
         width: 400px;
         text-align: center;
         color: #fff;
-        transform: rotateY(0deg);
-        background-color: rgb(99, 99, 99);
-        border: 1px solid rgb(255, 255, 255);
         i{
           font-size: 80px;
         }
@@ -34,9 +32,7 @@
         display: inline-block;
         height: 200px;
         width: 400px;
-        transform: rotateY(-180deg);
         background-color: pink;
-        border: 1px solid rgb(255, 255, 255);
       }
     }
   }

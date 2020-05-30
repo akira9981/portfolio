@@ -101,7 +101,7 @@
           <p>楽曲レヴューサイト[Laravel]</p>
           <h1>StockSound</h1>
         </div>
-        <div class="workPhoto"></div>
+        <div class="workPhoto"><img class='workImage' src="{{ asset('images/.jpg') }}"></div>
       </div>
       <div class="rotateBox">
         <div class="workText">

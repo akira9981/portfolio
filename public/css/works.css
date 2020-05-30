@@ -13,6 +13,7 @@
   height: 200px;
   width: 400px;
   margin: 60px 30px;
+  border: 1px solid #fff;
 }
 .works .worksContener .rotateBox .workText {
   position: absolute;
@@ -23,9 +24,6 @@
   width: 400px;
   text-align: center;
   color: #fff;
-  transform: rotateY(0deg);
-  background-color: #636363;
-  border: 1px solid #fff;
 }
 .works .worksContener .rotateBox .workText i {
   font-size: 80px;
@@ -37,7 +35,5 @@
   display: inline-block;
   height: 200px;
   width: 400px;
-  transform: rotateY(-180deg);
   background-color: pink;
-  border: 1px solid #fff;
 }
