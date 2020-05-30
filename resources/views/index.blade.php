@@ -101,7 +101,7 @@
           <p>楽曲レヴューサイト[Laravel]</p>
           <h1>StockSound</h1>
         </div>
-        <div class="workPhoto"><img class='workImage' src="{{ asset('images/.jpg') }}"></div>
+        <div class="workPhoto"><img class='workImage' src="{{ asset('images/stocksound.jpg') }}"></div>
       </div>
       <div class="rotateBox">
         <div class="workText">
@@ -109,7 +109,7 @@
           <p>ホワイトボード型　ToDoリスト[Laravel]</p>
           <h1>Memolist</h1>
         </div>
-        <div class="workPhoto"></div>
+        <div class="workPhoto"><img class='workImage' src="{{ asset('images/memolist.jpg') }}"></div>
       </div>
       <div class="rotateBox">
         <div class="workText">
@@ -117,7 +117,7 @@
             <p>TECH::CAMP チーム開発課題[Rails]</p>
             <h1>Mercari clone</h1>
         </div>
-        <div class="workPhoto"></div>
+        <div class="workPhoto"><img class='workImage' src="{{ asset('images/mercari.jpg') }}"></div>
       </div>
     </div>
   </div>

@@ -35,5 +35,8 @@
   display: inline-block;
   height: 200px;
   width: 400px;
-  background-color: pink;
+}
+.works .worksContener .rotateBox .workPhoto .workImage {
+  height: 200px;
+  width: 400px;
 }

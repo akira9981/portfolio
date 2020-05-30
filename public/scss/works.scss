@@ -32,7 +32,10 @@
         display: inline-block;
         height: 200px;
         width: 400px;
-        background-color: pink;
+        .workImage{
+          height: 200px;
+          width: 400px;
+        }
       }
     }
   }
