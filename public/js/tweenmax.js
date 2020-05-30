@@ -266,6 +266,28 @@ $('.miniBoxes').on({
     });
   }
 });
+$('.rotateBox').on({
+  'mouseenter': function mouseenter() {
+    TweenMax.to('.workPhoto', 0.5, {
+      rotationY: "0deg",
+      opacity: 1
+    });
+    TweenMax.to('.workText', 0.5, {
+      rotationY: "-180deg",
+      opacity: 0
+    });
+  },
+  'mouseleave': function mouseleave() {
+    TweenMax.to('.workPhoto', 0.5, {
+      rotationY: "-180deg",
+      opacity: 0
+    });
+    TweenMax.to('.workText', 0.5, {
+      rotationY: "0deg",
+      opacity: 1
+    });
+  }
+});
 
 /***/ }),
 

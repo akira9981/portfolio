@@ -6,28 +6,38 @@
   .worksContener{
     text-align: center;
     overflow: scroll;
-    .workText{
-      position: relative;
-      z-index: 10;
-      padding-top:  20px;
+    .rotateBox{
       display: inline-block;
       height: 200px;
       width: 400px;
-      text-align: center;
-      // margin: 60px 30px;
-      color: #fff;
-      border: 1px solid rgb(255, 255, 255);
-      i{
-        font-size: 80px;
+      margin: 60px 30px;
+      .workText{
+        position: absolute;
+        opacity: 1;
+        padding-top:  20px;
+        display: inline-block;
+        height: 180px;
+        width: 400px;
+        text-align: center;
+        color: #fff;
+        transform: rotateY(0deg);
+        background-color: rgb(99, 99, 99);
+        border: 1px solid rgb(255, 255, 255);
+        i{
+          font-size: 80px;
+        }
       }
-    }
-    .workPhoto{
-      z-index: 0;
-      position: relative;
-      display: inline-block;
-      height: 200px;
-      width: 400px;
-      background-color: pink;
+      .workPhoto{
+        position: absolute;
+        opacity: 0;
+        position: relative;
+        display: inline-block;
+        height: 200px;
+        width: 400px;
+        transform: rotateY(-180deg);
+        background-color: pink;
+        border: 1px solid rgb(255, 255, 255);
+      }
     }
   }
 }
