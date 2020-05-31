@@ -1,3 +1,4 @@
+// op effect
 TweenMax.to('.opb', 1.25,
   {
     delay: 0.5,
@@ -27,8 +28,7 @@ TweenMax.to('.opb', 1.25,
   }
 );
 
-TweenMax.staggerTo('.miniBox', 5, {ease: "expo", repeat: -1, rotationX: -180}, 0.1);
-
+// title
 $('.obj').on({
   'mouseenter': function(){
       TweenMax.to('#bgc', 0.25, {width: "100%" });
@@ -42,8 +42,8 @@ $('.obj').on({
   }
 });
 
+// index window
 TweenMax.staggerTo('.box', 1.5, {delay: 3,rotationX: -360}, 0.1);
-
 $('.box').on({
   'mouseenter': function(){
       TweenMax.set((this), {className:"+=active"});
@@ -58,6 +58,7 @@ $('.box').on({
   }
 });
 
+// Jump to another page
 $('.box').on({
   'click': function(){
     var pageId = $(this).attr('id');
@@ -85,6 +86,9 @@ $('.box').on({
   }
 });
 
+// back index
+TweenMax.staggerTo('.miniBox', 5, {ease: "expo", repeat: -1, rotationX: -180}, 0.1);
+
 $('.miniBoxes').on({
   'click': function(){
     TweenMax.to('.bbg', 0.5, {display: "block",ease: "bounce",top: "0vh"});
@@ -109,6 +113,19 @@ $('.miniBoxes').on({
   }
 });
 
+
+$('.icon i').on({
+  'mouseenter': function(){
+    $(this).attr('id', "iconA");
+    TweenMax.to('#iconA', 0.2, {scale: 1.5});
+  },
+  'mouseleave': function(){
+    TweenMax.to('#iconA', 0.2, {scale: 1});
+    $(this).removeAttr('id', "workA");
+  }
+});
+
+// work page
 $('.rotateBox').on({
   'mouseenter': function(){
     $(this).attr('id', "workA");

@@ -93,6 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+// op effect
 TweenMax.to('.opb', 1.25, {
   delay: 0.5,
   ease: 'elastic',
@@ -120,12 +121,8 @@ TweenMax.to('.opb', 1.25, {
       }
     });
   }
-});
-TweenMax.staggerTo('.miniBox', 5, {
-  ease: "expo",
-  repeat: -1,
-  rotationX: -180
-}, 0.1);
+}); // title
+
 $('.obj').on({
   'mouseenter': function mouseenter() {
     TweenMax.to('#bgc', 0.25, {
@@ -151,7 +148,8 @@ $('.obj').on({
       rotationX: -360
     }, 0.07);
   }
-});
+}); // index window
+
 TweenMax.staggerTo('.box', 1.5, {
   delay: 3,
   rotationX: -360
@@ -191,7 +189,8 @@ $('.box').on({
       opacity: 0
     });
   }
-});
+}); // Jump to another page
+
 $('.box').on({
   'click': function click() {
     var pageId = $(this).attr('id');
@@ -228,7 +227,13 @@ $('.box').on({
       }
     });
   }
-});
+}); // back index
+
+TweenMax.staggerTo('.miniBox', 5, {
+  ease: "expo",
+  repeat: -1,
+  rotationX: -180
+}, 0.1);
 $('.miniBoxes').on({
   'click': function click() {
     TweenMax.to('.bbg', 0.5, {
@@ -266,6 +271,21 @@ $('.miniBoxes').on({
     });
   }
 });
+$('.icon i').on({
+  'mouseenter': function mouseenter() {
+    $(this).attr('id', "iconA");
+    TweenMax.to('#iconA', 0.2, {
+      scale: 1.5
+    });
+  },
+  'mouseleave': function mouseleave() {
+    TweenMax.to('#iconA', 0.2, {
+      scale: 1
+    });
+    $(this).removeAttr('id', "workA");
+  }
+}); // work page
+
 $('.rotateBox').on({
   'mouseenter': function mouseenter() {
     $(this).attr('id', "workA");
