@@ -131,7 +131,8 @@
     <span class="objt">g</span>
     <div id="bgc"></div>
   </div>
-  <div class="mainContent"></div>
+  <div class="mainContent">
+  </div>
 </div>
 
 <div class="contact" id="content">
@@ -145,7 +146,27 @@
     <span class="objt">t</span>
     <div id="bgc"></div>
   </div>
-  <div class="mainContent"></div>
+  <div class="mainContent">
+    <div class='contactIcons'>
+      <div class='contactIcon'>
+        <i class="fab fa-twitter"></i>
+        <p>Twitter</p>
+      </div>
+      <div class='contactIcon'>
+        <i class="fab fa-github"></i>
+        <p>GitHub</p>
+      </div>
+      <div class='contactIcon'>
+        <i class="fas fa-book"></i>
+        <p>Qiita</p>
+      </div>
+      <div class='contactIcon'>
+        <i class="fas fa-envelope"></i>
+        <p>Mail</p>
+      </div>
+    </div>
+    <h5>2020 © AKIRA<h5>
+  </div>
 </div>
 
 <script src="{{ asset('js/tweenmax.js') }}"></script>

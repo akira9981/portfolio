@@ -208,7 +208,7 @@ $('.box').on({
       backgroundImage: "url('/images/ocean.jpg')"
     });
     TweenMax.to(page, {
-      delay: 0.5,
+      delay: 0.8,
       display: "block",
       onComplete: function onComplete() {
         TweenMax.to('.miniBoxes', {
@@ -242,7 +242,6 @@ $('.miniBoxes').on({
       top: "0vh"
     });
     TweenMax.to('#content', {
-      delay: 0.5,
       display: "none"
     });
     TweenMax.to('.miniBoxes', {
@@ -270,19 +269,21 @@ $('.miniBoxes').on({
       }
     });
   }
-});
+}); // skill page
+
 $('.icon i').on({
   'mouseenter': function mouseenter() {
     $(this).attr('id', "iconA");
-    TweenMax.to('#iconA', 0.2, {
+    TweenMax.to('#iconA', 0.5, {
+      ease: "elastic",
       scale: 1.5
     });
   },
   'mouseleave': function mouseleave() {
-    TweenMax.to('#iconA', 0.2, {
+    TweenMax.to('#iconA', 0.5, {
       scale: 1
     });
-    $(this).removeAttr('id', "workA");
+    $(this).removeAttr('id', "iconA");
   }
 }); // work page
 
@@ -304,6 +305,21 @@ $('.rotateBox').on({
       opacity: 1
     });
     $(this).removeAttr('id', "workA");
+  }
+}); // contact page
+
+$('.contactIcons i').on({
+  'mouseenter': function mouseenter() {
+    $(this).attr('id', "iconA");
+    TweenMax.to('#iconA', 0.2, {
+      color: "rgb(245, 245, 245)"
+    });
+  },
+  'mouseleave': function mouseleave() {
+    TweenMax.to('#iconA', 0.2, {
+      color: " rgb(146, 146, 146)"
+    });
+    $(this).removeAttr('id', "iconA");
   }
 });
 

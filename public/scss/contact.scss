@@ -3,4 +3,34 @@
   min-height: calc(100vh - 80px);
   width: 100%;
   padding-top: 30px;
+  .mainContent{
+    position: relative;
+    text-align: center;
+    .contactIcons{
+      display: block;
+      margin-top: 60px;
+      .contactIcon{
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        margin: 60px 20px;
+        i{
+          font-size: 150px;
+          color: rgb(146, 146, 146);
+        }
+        p{
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+          color: rgb(255, 255, 255);
+        }
+      }
+    }
+    h5{
+      color: rgb(255, 255, 255);
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 }

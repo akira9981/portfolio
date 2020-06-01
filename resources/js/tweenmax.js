@@ -69,7 +69,7 @@ $('.box').on({
     });
     TweenMax.to((page),
     {
-      delay: 0.5,
+      delay: 0.8,
       display: "block",
       onComplete: function(){
         TweenMax.to('.miniBoxes',{display: "block"});
@@ -92,7 +92,7 @@ TweenMax.staggerTo('.miniBox', 5, {ease: "expo", repeat: -1, rotationX: -180}, 0
 $('.miniBoxes').on({
   'click': function(){
     TweenMax.to('.bbg', 0.5, {display: "block",ease: "bounce",top: "0vh"});
-    TweenMax.to('#content',{delay: 0.5, display: "none"});
+    TweenMax.to('#content',{display: "none"});
     TweenMax.to('.miniBoxes',{delay: 0.5, display: "none"});
     TweenMax.to('body', {delay: 0.5, backgroundImage: "linear-gradient(25deg, rgba(255, 0, 0, 0.418), rgba(82, 243, 255, 0.623)),url('/images/bluesky.jpg')"});
     TweenMax.to('.index',
@@ -113,15 +113,15 @@ $('.miniBoxes').on({
   }
 });
 
-
+// skill page
 $('.icon i').on({
   'mouseenter': function(){
     $(this).attr('id', "iconA");
-    TweenMax.to('#iconA', 0.2, {scale: 1.5});
+    TweenMax.to('#iconA', 0.5, {ease: "elastic",scale: 1.5});
   },
   'mouseleave': function(){
-    TweenMax.to('#iconA', 0.2, {scale: 1});
-    $(this).removeAttr('id', "workA");
+    TweenMax.to('#iconA', 0.5, {scale: 1});
+    $(this).removeAttr('id', "iconA");
   }
 });
 
@@ -136,5 +136,17 @@ $('.rotateBox').on({
     TweenMax.to('#workA .workPhoto', 0.5, {opacity: 0});
     TweenMax.to('#workA .workText', 0.5, {opacity: 1});
     $(this).removeAttr('id', "workA");
+  }
+});
+
+// contact page
+$('.contactIcons i').on({
+  'mouseenter': function(){
+    $(this).attr('id', "iconA");
+    TweenMax.to('#iconA', 0.2, {color: "rgb(245, 245, 245)"});
+  },
+  'mouseleave': function(){
+    TweenMax.to('#iconA', 0.2, {color: " rgb(146, 146, 146)"});
+    $(this).removeAttr('id', "iconA");
   }
 });

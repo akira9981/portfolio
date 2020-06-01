@@ -4,3 +4,33 @@
   width: 100%;
   padding-top: 30px;
 }
+.contact .mainContent {
+  position: relative;
+  text-align: center;
+}
+.contact .mainContent .contactIcons {
+  display: block;
+  margin-top: 60px;
+}
+.contact .mainContent .contactIcons .contactIcon {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 60px 20px;
+}
+.contact .mainContent .contactIcons .contactIcon i {
+  font-size: 150px;
+  color: #929292;
+}
+.contact .mainContent .contactIcons .contactIcon p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+.contact .mainContent h5 {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
