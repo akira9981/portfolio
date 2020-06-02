@@ -309,6 +309,39 @@ $('.rotateBox').on({
     });
     $(this).removeAttr('id', "workA");
   }
+}); //blog page
+
+$('.blogBox').on({
+  'mouseenter': function mouseenter() {
+    $(this).attr('id', "blogA");
+    TweenMax.to('#blogA .blogTitle', 0.2, {
+      opacity: 0
+    });
+    TweenMax.to('#blogA .blogTagBox', 0.2, {
+      opacity: 0
+    });
+    TweenMax.to('#blogA', {
+      delay: 0.2,
+      backgroundImage: "url('/images/qiitalogo.png')",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      backgroundPosition: "center"
+    });
+  },
+  'mouseleave': function mouseleave() {
+    TweenMax.to('#blogA .blogTitle', 0.2, {
+      delay: 0.2,
+      opacity: 1
+    });
+    TweenMax.to('#blogA .blogTagBox', 0.2, {
+      delay: 0.2,
+      opacity: 1
+    });
+    TweenMax.to('#blogA', {
+      backgroundImage: "none"
+    });
+    $(this).removeAttr('id', "blogA");
+  }
 }); // contact page
 
 $('.contactIcons i').on({
