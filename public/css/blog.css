@@ -10,6 +10,7 @@
 .blog .blogsContent .blogBox {
   position: relative;
   display: inline-block;
+  vertical-align: top;
   margin: 50px;
   padding: 10px;
   width: 500px;
