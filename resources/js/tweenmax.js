@@ -146,11 +146,11 @@ $('.blogBox').on({
     $(this).attr('id', "blogA");
     TweenMax.to('#blogA .blogTitle', 0.2, {opacity: 0});
     TweenMax.to('#blogA .blogTagBox', 0.2, {opacity: 0});
-    TweenMax.to('#blogA', {delay: 0.2,backgroundImage: "url('/images/qiitalogo.png')", backgroundRepeat:"no-repeat", backgroundSize: "cover",backgroundPosition: "center"});
+    TweenMax.to('#blogA', {backgroundImage: "url('/images/qiitalogo.png')", backgroundRepeat:"no-repeat", backgroundSize: "cover",backgroundPosition: "center"});
   },
   'mouseleave': function(){
-    TweenMax.to('#blogA .blogTitle', 0.2, {delay: 0.2,opacity: 1});
-    TweenMax.to('#blogA .blogTagBox', 0.2, {delay: 0.2,opacity: 1});
+    TweenMax.to('#blogA .blogTitle', 0.2, {opacity: 1});
+    TweenMax.to('#blogA .blogTagBox', 0.2, {opacity: 1});
     TweenMax.to('#blogA', {backgroundImage: "none"});
     $(this).removeAttr('id', "blogA");
   }

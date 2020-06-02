@@ -144,6 +144,7 @@
           <div class="blogTag">PHP</div>
           <div class="blogTag">Laravel</div>
         </div>
+        <a href="https://qiita.com/gongyro/items/a87d1417f5299beb22e4" target="_blank"></a>
       </div>
       <div class="blogBox">
         <div class="blogTitle">homebrewを使ってPHPのバージョンアップグレード</div>
@@ -151,6 +152,7 @@
           <div class="blogTag">homebrew</div>
           <div class="blogTag">PHP</div>
         </div>
+        <a href="https://qiita.com/gongyro/items/da734cf4d8fabc8fe7ff" target="_blank"></a>
       </div>
       <div class="blogBox">
         <div class="blogTitle">hPのバージョンアップグレード</div>
