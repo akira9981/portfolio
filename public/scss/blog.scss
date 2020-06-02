@@ -3,4 +3,37 @@
   min-height: calc(100vh - 80px);
   width: 100%;
   padding-top: 30px;
+  .blogsContent{
+    text-align: center;
+    .blogBox{
+      position: relative;
+      display: inline-block;
+      margin: 50px;
+      padding: 10px;
+      width: 500px;
+      height: 130px;
+      border: 1px solid  rgb(255, 255, 255);
+      background-color: rgba(255, 255, 255, 0.26);
+      .blogTitle{
+        display: block;
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        border-bottom: solid 1px rgb(255, 255, 255);
+      }
+      .blogTagBox{
+        position: absolute;
+        bottom: 10px;
+        .blogTag{
+          display: inline-block;
+          padding: 5px;
+          color: rgb(0, 0, 0);
+          background-color: rgb(255, 255, 255);
+          border: 1px solid rgb(0, 0, 0);
+          border-radius: 5px;
+        }
+      }
+    }
+  }
 }
