@@ -135,6 +135,18 @@
     <div id="bgc"></div>
   </div>
   <div class="mainContent">
+    <div class="blogBox">
+      <h2 class="blogTitle">MacでLaravel開発環境構築</div>
+      <h5 class="blogTag">composer</div>
+      <h5 class="blogTag">homebrew</div>
+      <h5 class="blogTag">PHP</div>
+      <h5 class="blogTag">Laravel</div>
+    </div>
+    <div class="blogBox">
+      <h2 class="blogTitle">homebrewを使ってPHPのバージョンアップグレード</div>
+      <h5 class="blogTag">homebrew</div>
+      <h5 class="blogTag">PHP</div>
+    </div>
   </div>
 </div>
 
