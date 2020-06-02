@@ -3,7 +3,10 @@
 @section('content')
 <div class="index">
   <div class="obj">
-    <span class="objt">P</span>
+    <span class="objt">A</span>
+    <span class="objt">.</span>
+    <span class="objt">Y</span>
+    <span class="objt">p</span>
     <span class="objt">o</span>
     <span class="objt">r</span>
     <span class="objt">t</span>
@@ -149,20 +152,20 @@
   <div class="mainContent">
     <div class='contactIcons'>
       <div class='contactIcon'>
-        <i class="fab fa-twitter"></i>
+        <a href="https://twitter.com/gongyro" target=”_blank”><i class="fab fa-twitter"></i></a>
         <p>Twitter</p>
       </div>
       <div class='contactIcon'>
-        <i class="fab fa-github"></i>
+        <a href="https://github.com/akira9981" target=”_blank”><i class="fab fa-github"></i></a>
         <p>GitHub</p>
       </div>
       <div class='contactIcon'>
-        <i class="fas fa-book"></i>
+      <a href="https://qiita.com/gongyro" target="_blank"><i class="fas fa-book"></i></a>
         <p>Qiita</p>
       </div>
       <div class='contactIcon'>
-        <i class="fas fa-envelope"></i>
-        <p>Mail</p>
+      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=gongyro@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <p>Gmail</p>
       </div>
     </div>
     <h5>2020 © AKIRA<h5>
