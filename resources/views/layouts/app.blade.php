@@ -21,7 +21,7 @@
   <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
 </head>
 <body>
-<div class="opb"></div>
+<div class="opb"><i class="fas fa-cloud"></i></div>
 <div class="bbg"></div>
 <header>
   <div class="miniBoxes">

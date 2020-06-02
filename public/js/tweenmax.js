@@ -99,8 +99,13 @@ TweenMax.to('.opb', 1.25, {
   ease: 'elastic',
   top: '50%',
   onComplete: function onComplete() {
-    TweenMax.to('.opb', 0.5, {
+    TweenMax.to('.opb i', 0.5, {
       delay: 0.2,
+      fontSize: "60vw"
+    });
+    TweenMax.to('.opb', 0.5, {
+      backgroundColor: "rgb(255, 255, 255)",
+      delay: 0.3,
       height: "100%",
       width: "100%",
       onComplete: function onComplete() {
@@ -195,26 +200,25 @@ $('.box').on({
   'click': function click() {
     var pageId = $(this).attr('id');
     var page = '.' + pageId;
-    TweenMax.to('.bbg', 0.5, {
+    TweenMax.to('.bbg', 0.2, {
       display: "block",
-      ease: "bounce",
       top: "0vh"
     });
     TweenMax.to('.index', {
       display: "none"
     });
     TweenMax.to('body', {
-      delay: 0.8,
+      delay: 0.2,
       backgroundImage: "url('/images/ocean.jpg')"
     });
     TweenMax.to(page, {
-      delay: 0.8,
+      delay: 0.2,
       display: "block",
       onComplete: function onComplete() {
         TweenMax.to('.miniBoxes', {
           display: "block"
         });
-        TweenMax.to('.bbg', 0.5, {
+        TweenMax.to('.bbg', 0.3, {
           opacity: 0,
           display: "none",
           onComplete: function onComplete() {
@@ -236,27 +240,26 @@ TweenMax.staggerTo('.miniBox', 5, {
 }, 0.1);
 $('.miniBoxes').on({
   'click': function click() {
-    TweenMax.to('.bbg', 0.5, {
+    TweenMax.to('.bbg', 0.2, {
       display: "block",
-      ease: "bounce",
       top: "0vh"
     });
     TweenMax.to('#content', {
       display: "none"
     });
     TweenMax.to('.miniBoxes', {
-      delay: 0.5,
+      delay: 0.2,
       display: "none"
     });
     TweenMax.to('body', {
-      delay: 0.5,
+      delay: 0.2,
       backgroundImage: "linear-gradient(25deg, rgba(255, 0, 0, 0.418), rgba(82, 243, 255, 0.623)),url('/images/bluesky.jpg')"
     });
     TweenMax.to('.index', {
-      delay: 0.5,
+      delay: 0.2,
       display: "block",
       onComplete: function onComplete() {
-        TweenMax.to('.bbg', 0.5, {
+        TweenMax.to('.bbg', 0.3, {
           opacity: 0,
           display: "none",
           onComplete: function onComplete() {

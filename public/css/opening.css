@@ -5,8 +5,16 @@
   transform: translateX(-50%) translateY(-50%);
   height: 50px;
   width: 50px;
-  background-color: #fff;
+  text-align: center;
   z-index: 999;
+}
+.opb i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
 }
 .bbg {
   position: absolute;
