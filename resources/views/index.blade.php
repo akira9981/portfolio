@@ -41,9 +41,12 @@
     <div class="aboutBox">
       <div class="myPhotoBox">
         <div class="myPhoto"></div>
+        <p>Akira Yamashita</p>
       </div>
       <div class="aboutMeBox">
-        <p></p>
+        <p>
+          
+        </p>
       </div>
     </div>
   </div>

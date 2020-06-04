@@ -5,13 +5,30 @@
   padding-top: 30px;
   .mainContent{
     .aboutBox{
+      text-align: center;
       .myPhotoBox{
-        
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px;
+        text-align: center;
+        height: 600px;
+        width: 500px;
+        background-color: rgb(255, 255, 255);
         .myPhoto{
+          display: inline-block;
+          margin: 10px;
+          height: 450px;
+          width: 450px;
+          border-radius: 50%;
+          background-color: pink;
         }
       }
-      .aboutMe{
-
+      .aboutMeBox{
+        display: inline-block;
+        margin: 20px;
+        height: 600px;
+        width: 500px;
+        background-color: rgb(194, 194, 194);
       }
     }
   }

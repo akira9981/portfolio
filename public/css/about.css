@@ -4,3 +4,30 @@
   width: 100%;
   padding-top: 30px;
 }
+.about .mainContent .aboutBox {
+  text-align: center;
+}
+.about .mainContent .aboutBox .myPhotoBox {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  text-align: center;
+  height: 600px;
+  width: 500px;
+  background-color: #fff;
+}
+.about .mainContent .aboutBox .myPhotoBox .myPhoto {
+  display: inline-block;
+  margin: 10px;
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-color: pink;
+}
+.about .mainContent .aboutBox .aboutMeBox {
+  display: inline-block;
+  margin: 20px;
+  height: 600px;
+  width: 500px;
+  background-color: #c2c2c2;
+}
