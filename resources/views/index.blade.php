@@ -37,7 +37,16 @@
     <span class="objt">t</span>
     <div id="bgc"></div>
   </div>
-  <div class="mainContent"></div>
+  <div class="mainContent">
+    <div class="aboutBox">
+      <div class="myPhotoBox">
+        <div class="myPhoto"></div>
+      </div>
+      <div class="aboutMeBox">
+        <p></p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="skill" id="content">
