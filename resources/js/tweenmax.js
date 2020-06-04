@@ -30,6 +30,12 @@ TweenMax.to('.opb', 1.25,
   }
 );
 
+const tl = new TimelineMax({ repeat: -1 });
+tl.to('.square', 2.0, {
+  left: "800px",
+  rotationZ: 360
+});
+
 // title
 $('.obj').on({
   'mouseenter': function(){

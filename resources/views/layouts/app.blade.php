@@ -23,6 +23,7 @@
 <body>
 <div class="opb"><i class="fas fa-cloud"></i></div>
 <div class="bbg"></div>
+<div class="square"></div>
 <header>
   <div class="miniBoxes">
     <div class="flex-box">
