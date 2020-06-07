@@ -30,11 +30,9 @@ TweenMax.to('.opb', 1.25,
   }
 );
 
-const tl = new TimelineMax({ repeat: -1 });
-tl.to('.square', 2.0, {
-  left: "800px",
-  rotationZ: 360
-});
+var tl = new TimelineMax;
+tl.add(TweenMax.to('.square', 2.0,{left: "800px",rotationZ: 360}), 5);
+tl.timeScale(0.1); 0.5;
 
 // title
 $('.obj').on({
