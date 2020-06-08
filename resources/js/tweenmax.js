@@ -30,9 +30,14 @@ TweenMax.to('.opb', 1.25,
   }
 );
 
-var tl = new TimelineMax;
-tl.add(TweenMax.to('.square', 2.0,{left: "800px",rotationZ: 360}), 5);
-tl.timeScale(0.1); 0.5;
+var tl = new TimelineMax({ repeat: -1});
+tl.to('.square', 1, {x: "80vw", rotationZ: 360})
+.add( 'scene1' )
+.to( '.square', 1, {y: "80vh", rotationZ: 720}, 'scene1' )
+.add('scene2')
+.to( '.square', 1, {x: "0vw", rotationZ: 1080}, 'scene2' )
+.add('scene3')
+.to( '.square', 1, {y: "0vh", rotationZ: 1440}, 'scene3' )
 
 // title
 $('.obj').on({
