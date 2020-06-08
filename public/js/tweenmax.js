@@ -126,7 +126,8 @@ TweenMax.to('.opb', 1.25, {
       }
     });
   }
-});
+}); // square 
+
 var tl = new TimelineMax({
   repeat: -1
 });
@@ -145,7 +146,12 @@ tl.to('.square', 1.5, {
 }, 'scene3');
 $('.box').on({
   'click': function click() {
-    tl.timeScale(0.3);
+    tl.timeScale(0.2);
+  }
+});
+$('.miniBoxes').on({
+  'click': function click() {
+    tl.timeScale(1);
   }
 }); // title
 

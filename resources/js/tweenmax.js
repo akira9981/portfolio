@@ -30,6 +30,7 @@ TweenMax.to('.opb', 1.25,
   }
 );
 
+// square 
 var tl = new TimelineMax({ repeat: -1});
 tl.to('.square', 1.5, {left: "calc(100% - 60px)", rotationZ: 360})
 .add( 'scene1' )
@@ -41,8 +42,13 @@ tl.to('.square', 1.5, {left: "calc(100% - 60px)", rotationZ: 360})
 
 $('.box').on({
   'click': function(){
-    tl.timeScale(0.3);}
-  });
+    tl.timeScale(0.2);}
+});
+
+$('.miniBoxes').on({
+  'click': function(){
+    tl.timeScale(1);}
+});
 
 // title
 $('.obj').on({
