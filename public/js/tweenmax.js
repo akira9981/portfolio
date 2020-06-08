@@ -142,7 +142,12 @@ tl.to('.square', 1.5, {
 }, 'scene2').add('scene3').to('.square', 1.5, {
   top: "0%",
   rotationZ: 1440
-}, 'scene3'); // title
+}, 'scene3');
+$('.box').on({
+  'click': function click() {
+    tl.timeScale(0.3);
+  }
+}); // title
 
 $('.obj').on({
   'mouseenter': function mouseenter() {

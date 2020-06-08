@@ -39,6 +39,11 @@ tl.to('.square', 1.5, {left: "calc(100% - 60px)", rotationZ: 360})
 .add('scene3')
 .to( '.square', 1.5, {top: "0%", rotationZ: 1440}, 'scene3' )
 
+$('.box').on({
+  'click': function(){
+    tl.timeScale(0.3);}
+  });
+
 // title
 $('.obj').on({
   'mouseenter': function(){
