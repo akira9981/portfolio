@@ -42,6 +42,13 @@ main {
   display: block;
 }
 
+.squareContent{
+  display: block;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+}
+
 .square{
   display: block;
   position: absolute;

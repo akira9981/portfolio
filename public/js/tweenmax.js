@@ -131,16 +131,16 @@ var tl = new TimelineMax({
   repeat: -1
 });
 tl.to('.square', 1, {
-  x: "80vw",
+  left: "87%",
   rotationZ: 360
 }).add('scene1').to('.square', 1, {
-  y: "80vh",
+  top: "87%",
   rotationZ: 720
 }, 'scene1').add('scene2').to('.square', 1, {
-  x: "0vw",
+  left: "0%",
   rotationZ: 1080
 }, 'scene2').add('scene3').to('.square', 1, {
-  y: "0vh",
+  top: "0%",
   rotationZ: 1440
 }, 'scene3'); // title
 
