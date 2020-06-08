@@ -31,13 +31,13 @@ TweenMax.to('.opb', 1.25,
 );
 
 var tl = new TimelineMax({ repeat: -1});
-tl.to('.square', 1, {left: "87%", rotationZ: 360})
+tl.to('.square', 1.5, {left: "calc(100% - 60px)", rotationZ: 360})
 .add( 'scene1' )
-.to( '.square', 1, {top: "87%", rotationZ: 720}, 'scene1' )
+.to( '.square', 1.5, {top: "calc(100% - 60px)", rotationZ: 720}, 'scene1' )
 .add('scene2')
-.to( '.square', 1, {left: "0%", rotationZ: 1080}, 'scene2' )
+.to( '.square', 1.5, {left: "0%", rotationZ: 1080}, 'scene2' )
 .add('scene3')
-.to( '.square', 1, {top: "0%", rotationZ: 1440}, 'scene3' )
+.to( '.square', 1.5, {top: "0%", rotationZ: 1440}, 'scene3' )
 
 // title
 $('.obj').on({
