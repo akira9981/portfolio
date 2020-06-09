@@ -141,7 +141,8 @@ stl.to('.square', 1.5, {
   top: "0%"
 }, 'scene3');
 var ctl = new TimelineMax({
-  repeat: -1
+  repeat: -1,
+  repeatDelay: 3
 });
 ctl.to('.circle', 1.8, {
   height: "800px",

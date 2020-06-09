@@ -40,8 +40,9 @@ stl.to('.square', 1.5, {left: "calc(100% - 60px)"})
 .add('scene3')
 .to( '.square', 1.5, {top: "0%"}, 'scene3' )
 
-var ctl = new TimelineMax({ repeat: -1});
+var ctl = new TimelineMax({ repeat: -1,repeatDelay: 3});
 ctl.to('.circle', 1.8, {height: "800px",width: "800px",opacity: 0,ease: "power4"});
+
 
 $('.box').on({
   'click': function(){
