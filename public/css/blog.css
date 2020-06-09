@@ -6,6 +6,7 @@
 }
 .blog .blogsContent {
   text-align: center;
+  overflow: scroll;
 }
 .blog .blogsContent .blogBox {
   position: relative;
