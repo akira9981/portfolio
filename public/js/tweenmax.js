@@ -128,42 +128,45 @@ TweenMax.to('.opb', 1.25, {
   }
 }); // square 
 
-var stl = new TimelineMax({
-  repeat: -1
-});
-stl.to('.square', 8, {
-  left: "calc(100% - 60px)"
-}).add('scene1').to('.square', 8, {
-  top: "calc(100% - 60px)"
-}, 'scene1').add('scene2').to('.square', 8, {
-  left: "0%"
-}, 'scene2').add('scene3').to('.square', 8, {
-  top: "0%"
-}, 'scene3');
-var ctl = new TimelineMax({
-  repeat: -1,
-  repeatDelay: 3.4
-});
-ctl.to('.circle', 1.5, {
-  height: "800px",
-  width: "800px",
-  opacity: 0,
-  ease: "power4"
-});
-$('.box').on({
-  'click': function click() {
-    stl.timeScale(0.8);
-    ctl.timeScale(0.2);
-    ctl.repeatDelay(0.1);
-  }
-});
-$('.miniBoxes').on({
-  'click': function click() {
-    stl.timeScale(1);
-    ctl.timeScale(1);
-    ctl.repeatDelay(3.4);
-  }
-}); // title
+if (!navigator.userAgent.match(/(iPhone|iPad|Andoroid)/)) {
+  var stl = new TimelineMax({
+    repeat: -1
+  });
+  stl.to('.square', 8, {
+    left: "calc(100% - 60px)"
+  }).add('scene1').to('.square', 8, {
+    top: "calc(100% - 60px)"
+  }, 'scene1').add('scene2').to('.square', 8, {
+    left: "0%"
+  }, 'scene2').add('scene3').to('.square', 8, {
+    top: "0%"
+  }, 'scene3');
+  var ctl = new TimelineMax({
+    repeat: -1,
+    repeatDelay: 3.4
+  });
+  ctl.to('.circle', 1.5, {
+    height: "800px",
+    width: "800px",
+    opacity: 0,
+    ease: "power4"
+  });
+  $('.box').on({
+    'click': function click() {
+      stl.timeScale(0.8);
+      ctl.timeScale(0.2);
+      ctl.repeatDelay(0.1);
+    }
+  });
+  $('.miniBoxes').on({
+    'click': function click() {
+      stl.timeScale(1);
+      ctl.timeScale(1);
+      ctl.repeatDelay(3.4);
+    }
+  });
+} // title
+
 
 $('.obj').on({
   'mouseenter': function mouseenter() {
@@ -211,7 +214,7 @@ $('.box').on({
     TweenMax.to('.box', 0.25, {
       opacity: 0.3
     });
-    TweenMax.to('.active #text', 0.1, {
+    TweenMax.to('.active .text', 0.1, {
       opacity: 1
     });
   },
@@ -227,7 +230,7 @@ $('.box').on({
       zIndex: 0,
       opacity: 1
     });
-    TweenMax.to('#text', 0.1, {
+    TweenMax.to('.text', 0.1, {
       opacity: 0
     });
   }
@@ -307,6 +310,20 @@ $('.miniBoxes').on({
           }
         });
       }
+    });
+  }
+}); // about page
+
+$('.myPhoto').on({
+  'mouseenter': function mouseenter() {
+    TweenMax.to('.myPhoto', 1, {
+      borderRadius: 0,
+      backgroundImage: "url"
+    });
+  },
+  'mouseleave': function mouseleave() {
+    TweenMax.to('.myPhoto', 1, {
+      borderRadius: "50%"
     });
   }
 }); // skill page

@@ -26,7 +26,7 @@
   text-align: center;
   line-height: 300px;
 }
-.index #text {
+.index .boxes .flex-box .text {
   display: inline-block;
   color: #fff;
   opacity: 0;

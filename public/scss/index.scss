@@ -23,14 +23,20 @@
         text-align: center;
         line-height: 300px;
       }
+      .text{
+        display: inline-block;
+        color: #fff;
+        opacity: 0;
+        font-family: 'Times New Roman', Times, serif;
+      }
     }
   }
-  #text{
-    display: inline-block;
-    color: #fff;
-    opacity: 0;
-    font-family: 'Times New Roman', Times, serif;
-  }
+  // #text{
+  //   display: inline-block;
+  //   color: #fff;
+  //   opacity: 0;
+  //   font-family: 'Times New Roman', Times, serif;
+  // }
 }
 #about{
   background: linear-gradient(to right,#00ccff 40%, #007d9c);
