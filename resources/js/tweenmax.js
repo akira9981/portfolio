@@ -57,6 +57,7 @@ if(!navigator.userAgent.match(/(iPhone|iPad|Andoroid)/))
     'click': function(){
       stl.timeScale(1);
       ctl.timeScale(1);
+      ctl.repeatDelay(3.4);
     }
   });
 }
