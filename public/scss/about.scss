@@ -6,6 +6,7 @@
   .mainContent{
     .aboutBox{
       text-align: center;
+      overflow: scroll;
       .myPhotoBox{
         display: inline-block;
         vertical-align: top;
@@ -13,14 +14,23 @@
         text-align: center;
         height: 600px;
         width: 500px;
-        background-color: rgb(255, 255, 255);
         .myPhoto{
           display: inline-block;
           margin: 10px;
           height: 450px;
           width: 450px;
+          border: solid 5px rgb(255, 255, 255);
           border-radius: 50%;
-          background-color: pink;
+          background-image: url("/images/kaiyu.jpg");
+          background-repeat: no-repeat;
+          background-position: 0 100%;
+          background-size: 550px;
+        }
+        p{
+          color: rgb(255, 255, 255);
+          margin-top: 50px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 20px;
         }
       }
       .aboutMeBox{
@@ -28,7 +38,7 @@
         margin: 20px;
         height: 600px;
         width: 500px;
-        background-color: rgb(194, 194, 194);
+        border: solid 1px rgb(255,255,255);
       }
     }
   }

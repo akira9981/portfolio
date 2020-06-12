@@ -44,7 +44,9 @@
         <p>Akira Yamashita</p>
       </div>
       <div class="aboutMeBox">
+        <h2>About Me</h2>
         <p>
+          大学卒業後、新卒で証券会社へ入社。<br>
           
         </p>
       </div>

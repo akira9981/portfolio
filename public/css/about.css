@@ -6,6 +6,7 @@
 }
 .about .mainContent .aboutBox {
   text-align: center;
+  overflow: scroll;
 }
 .about .mainContent .aboutBox .myPhotoBox {
   display: inline-block;
@@ -14,20 +15,29 @@
   text-align: center;
   height: 600px;
   width: 500px;
-  background-color: #fff;
 }
 .about .mainContent .aboutBox .myPhotoBox .myPhoto {
   display: inline-block;
   margin: 10px;
   height: 450px;
   width: 450px;
+  border: solid 5px #fff;
   border-radius: 50%;
-  background-color: pink;
+  background-image: url("/images/kaiyu.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 550px;
+}
+.about .mainContent .aboutBox .myPhotoBox p {
+  color: #fff;
+  margin-top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 .about .mainContent .aboutBox .aboutMeBox {
   display: inline-block;
   margin: 20px;
   height: 600px;
   width: 500px;
-  background-color: #c2c2c2;
+  border: solid 1px #fff;
 }
