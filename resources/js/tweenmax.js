@@ -82,12 +82,18 @@ $('.box').on({
       TweenMax.set((this), {className:"+=active"});
       TweenMax.to('.active', 0.25, {width: 350, height: 350,y: -10 ,z: 60, zIndex: 1});
       TweenMax.to('.box', 0.25, {opacity: 0.3});
-      TweenMax.to('.active .text', 0.1, {opacity: 1});
-    },
+      TweenMax.to('.active .text', 0.1, 
+      {
+        display:"inline-block",
+        onComplete: function(){
+          TweenMax.to('.active .text', 0.1, {opacity: 1})
+        }
+      });
+  },
   'mouseleave': function(){
       TweenMax.set('.active', {className:"+=box"});
       TweenMax.to('.box', 0.25, {width: 100, height: 300, y: 10, z: 0 ,zIndex: 0,opacity: 1});
-      TweenMax.to('.text', 0.1, {opacity: 0});
+      TweenMax.to('.text', 0.1, {display: "none",opacity: 0});
   }
 });
 

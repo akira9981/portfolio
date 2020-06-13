@@ -27,7 +27,7 @@
   line-height: 300px;
 }
 .index .boxes .flex-box .text {
-  display: inline-block;
+  display: none;
   color: #fff;
   opacity: 0;
   font-family: 'Times New Roman', Times, serif;

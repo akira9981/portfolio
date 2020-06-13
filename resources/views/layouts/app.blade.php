@@ -20,7 +20,7 @@
   <link href="{{ asset('css/blog.css') }}" rel="stylesheet">
   <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
 </head>
-<body ontouchstart="">
+<body>
 <div class="opb"><i class="fas fa-cloud"></i></div>
 <div class="bbg"></div>
 <div class="squareContent">

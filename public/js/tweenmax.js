@@ -215,7 +215,12 @@ $('.box').on({
       opacity: 0.3
     });
     TweenMax.to('.active .text', 0.1, {
-      opacity: 1
+      display: "inline-block",
+      onComplete: function onComplete() {
+        TweenMax.to('.active .text', 0.1, {
+          opacity: 1
+        });
+      }
     });
   },
   'mouseleave': function mouseleave() {
@@ -231,6 +236,7 @@ $('.box').on({
       opacity: 1
     });
     TweenMax.to('.text', 0.1, {
+      display: "none",
       opacity: 0
     });
   }
