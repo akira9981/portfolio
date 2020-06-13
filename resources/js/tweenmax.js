@@ -83,13 +83,7 @@ $('.box').on({
       {
         className:"+=active",
         onComplete: function(){
-          TweenMax.to('.active .text', 0.1, 
-          {
-            display:"inline-block",
-            onComplete: function(){
-              TweenMax.to('.active .text', 0.1, {opacity: 1});
-            }
-          });
+          TweenMax.to('.active .text', 0.1, {display:"inline-block",opacity: 1});
         }
       });
       TweenMax.to('.box', 0.25, {opacity: 0.3});
@@ -162,7 +156,7 @@ if(navigator.userAgent.match(/(iPhone|iPad|Andoroid)/))
 }
 
 // back index
-TweenMax.staggerTo('.miniBox', 5, {ease: "expo", repeat: -1, rotationX: -180}, 0.1);
+TweenMax.staggerTo('.miniBox', 4, {ease: "expo", repeat: -1, rotationX: -180}, 0.1);
 
 $('.miniBoxes').on({
   'click': function(){

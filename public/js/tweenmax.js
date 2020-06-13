@@ -206,11 +206,7 @@ $('.box').on({
       onComplete: function onComplete() {
         TweenMax.to('.active .text', 0.1, {
           display: "inline-block",
-          onComplete: function onComplete() {
-            TweenMax.to('.active .text', 0.1, {
-              opacity: 1
-            });
-          }
+          opacity: 1
         });
       }
     });
@@ -323,7 +319,7 @@ if (navigator.userAgent.match(/(iPhone|iPad|Andoroid)/)) {
 } // back index
 
 
-TweenMax.staggerTo('.miniBox', 5, {
+TweenMax.staggerTo('.miniBox', 4, {
   ease: "expo",
   repeat: -1,
   rotationX: -180
