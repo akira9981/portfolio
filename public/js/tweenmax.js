@@ -202,7 +202,20 @@ TweenMax.staggerTo('.box', 1.5, {
 $('.box').on({
   'mouseenter': function mouseenter() {
     TweenMax.set(this, {
-      className: "+=active"
+      className: "+=active",
+      onComplete: function onComplete() {
+        TweenMax.to('.active .text', 0.1, {
+          display: "inline-block",
+          onComplete: function onComplete() {
+            TweenMax.to('.active .text', 0.1, {
+              opacity: 1
+            });
+          }
+        });
+      }
+    });
+    TweenMax.to('.box', 0.25, {
+      opacity: 0.3
     });
     TweenMax.to('.active', 0.25, {
       width: 350,
@@ -210,17 +223,6 @@ $('.box').on({
       y: -10,
       z: 60,
       zIndex: 1
-    });
-    TweenMax.to('.box', 0.25, {
-      opacity: 0.3
-    });
-    TweenMax.to('.active .text', 0.1, {
-      display: "inline-block",
-      onComplete: function onComplete() {
-        TweenMax.to('.active .text', 0.1, {
-          opacity: 1
-        });
-      }
     });
   },
   'mouseleave': function mouseleave() {
@@ -242,42 +244,84 @@ $('.box').on({
   }
 }); // Jump to another page
 
-$('.box').on({
-  'click': function click() {
-    var pageId = $(this).attr('id');
-    var page = '.' + pageId;
-    TweenMax.to('.bbg', 0.2, {
-      display: "block",
-      top: "0vh"
-    });
-    TweenMax.to('.index', {
-      display: "none"
-    });
-    TweenMax.to('body', {
-      delay: 0.2,
-      backgroundImage: "url('/images/ocean.jpg')"
-    });
-    TweenMax.to(page, {
-      delay: 0.2,
-      display: "block",
-      onComplete: function onComplete() {
-        TweenMax.to('.miniBoxes', {
-          display: "block"
-        });
-        TweenMax.to('.bbg', 0.3, {
-          opacity: 0,
-          display: "none",
-          onComplete: function onComplete() {
-            TweenMax.to('.bbg', {
-              top: "100vh",
-              opacity: 1
-            });
-          }
-        });
-      }
-    });
-  }
-}); // back index
+if (!navigator.userAgent.match(/(iPhone|iPad|Andoroid)/)) {
+  $('.box').on({
+    'click': function click() {
+      var pageId = $(this).attr('id');
+      var page = '.' + pageId;
+      TweenMax.to('.bbg', 0.2, {
+        display: "block",
+        top: "0vh"
+      });
+      TweenMax.to('.index', {
+        display: "none"
+      });
+      TweenMax.to('body', {
+        delay: 0.2,
+        backgroundImage: "url('/images/ocean.jpg')"
+      });
+      TweenMax.to(page, {
+        delay: 0.2,
+        display: "block",
+        onComplete: function onComplete() {
+          TweenMax.to('.miniBoxes', {
+            display: "block"
+          });
+          TweenMax.to('.bbg', 0.3, {
+            opacity: 0,
+            display: "none",
+            onComplete: function onComplete() {
+              TweenMax.to('.bbg', {
+                top: "100vh",
+                opacity: 1
+              });
+            }
+          });
+        }
+      });
+    }
+  });
+}
+
+if (navigator.userAgent.match(/(iPhone|iPad|Andoroid)/)) {
+  $('.text').on({
+    'click': function click() {
+      var pageId = $('.active').attr('id');
+      var page = '.' + pageId;
+      TweenMax.to('.bbg', 0.2, {
+        display: "block",
+        top: "0vh"
+      });
+      TweenMax.to('.index', {
+        display: "none"
+      });
+      TweenMax.to('body', {
+        delay: 0.2,
+        backgroundImage: "url('/images/ocean.jpg')"
+      });
+      TweenMax.to(page, {
+        delay: 0.2,
+        display: "block",
+        onComplete: function onComplete() {
+          TweenMax.to('.miniBoxes', {
+            display: "block"
+          });
+          TweenMax.to('.bbg', 0.3, {
+            opacity: 0,
+            display: "none",
+            onComplete: function onComplete() {
+              TweenMax.to('.bbg', {
+                top: "100vh",
+                opacity: 1
+              });
+            }
+          });
+        }
+      });
+    }
+  });
+} // back index
+
 
 TweenMax.staggerTo('.miniBox', 5, {
   ease: "expo",

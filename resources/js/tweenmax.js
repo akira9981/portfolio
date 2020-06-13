@@ -79,16 +79,21 @@ $('.obj').on({
 TweenMax.staggerTo('.box', 1.5, {delay: 3,rotationX: -360}, 0.1);
 $('.box').on({
   'mouseenter': function(){
-      TweenMax.set((this), {className:"+=active"});
-      TweenMax.to('.active', 0.25, {width: 350, height: 350,y: -10 ,z: 60, zIndex: 1});
-      TweenMax.to('.box', 0.25, {opacity: 0.3});
-      TweenMax.to('.active .text', 0.1, 
+      TweenMax.set((this),
       {
-        display:"inline-block",
+        className:"+=active",
         onComplete: function(){
-          TweenMax.to('.active .text', 0.1, {opacity: 1})
+          TweenMax.to('.active .text', 0.1, 
+          {
+            display:"inline-block",
+            onComplete: function(){
+              TweenMax.to('.active .text', 0.1, {opacity: 1});
+            }
+          });
         }
       });
+      TweenMax.to('.box', 0.25, {opacity: 0.3});
+      TweenMax.to('.active', 0.25, {width: 350, height: 350,y: -10 ,z: 60, zIndex: 1});
   },
   'mouseleave': function(){
       TweenMax.set('.active', {className:"+=box"});
@@ -98,6 +103,8 @@ $('.box').on({
 });
 
 // Jump to another page
+if(!navigator.userAgent.match(/(iPhone|iPad|Andoroid)/))
+{
 $('.box').on({
   'click': function(){
     var pageId = $(this).attr('id');
@@ -123,6 +130,36 @@ $('.box').on({
     });
   }
 });
+}
+
+if(navigator.userAgent.match(/(iPhone|iPad|Andoroid)/))
+{
+  $('.text').on({
+    'click': function(){
+      var pageId = $('.active').attr('id');
+      var page = '.' + pageId ;
+      TweenMax.to('.bbg', 0.2, {display: "block",top: "0vh"});
+      TweenMax.to('.index',{display: "none"});
+      TweenMax.to('body',{delay: 0.2, backgroundImage: "url('/images/ocean.jpg')",});
+      TweenMax.to((page),
+      {
+        delay: 0.2,
+        display: "block",
+        onComplete: function(){
+          TweenMax.to('.miniBoxes',{display: "block"});
+          TweenMax.to('.bbg',0.3,
+          {
+            opacity: 0,
+            display: "none",
+            onComplete: function(){
+              TweenMax.to('.bbg', {top: "100vh", opacity: 1})
+            }
+          });
+        }
+      });
+    }
+  });
+}
 
 // back index
 TweenMax.staggerTo('.miniBox', 5, {ease: "expo", repeat: -1, rotationX: -180}, 0.1);
