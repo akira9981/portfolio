@@ -50,3 +50,11 @@
 #box6 {
   background: linear-gradient(to right, #6800df 40%, #360074);
 }
+@media only screen and (max-width: 767px) {
+  .flex-box {
+    transform: rotate(90deg);
+  }
+  .text {
+    transform: rotate(-90deg);
+  }
+}

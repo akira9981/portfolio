@@ -398,3 +398,9 @@ template {
   text-align: center;
   padding: 5px;
 }
+
+@media only screen and (max-width: 767px){
+  .squareContent{
+    overflow: hidden;
+  }
+}
