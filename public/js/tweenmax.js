@@ -387,71 +387,79 @@ $('.icon i').on({
   }
 }); // work page
 
-$('.rotateBox').on({
-  'mouseenter': function mouseenter() {
-    $(this).attr('id', "workA");
-    TweenMax.to('#workA .workText', 0.5, {
-      opacity: 0
-    });
-    TweenMax.to('#workA .workPhoto', 0.5, {
-      opacity: 1
-    });
-  },
-  'mouseleave': function mouseleave() {
-    TweenMax.to('#workA .workPhoto', 0.5, {
-      opacity: 0
-    });
-    TweenMax.to('#workA .workText', 0.5, {
-      opacity: 1
-    });
-    $(this).removeAttr('id', "workA");
-  }
-}); //blog page
+if (!navigator.userAgent.match(/(iPhone|iPad|Andoroid)/)) {
+  $('.rotateBox').on({
+    'mouseenter': function mouseenter() {
+      $(this).attr('id', "workA");
+      TweenMax.to('#workA .workText', 0.5, {
+        opacity: 0
+      });
+      TweenMax.to('#workA .workPhoto', 0.5, {
+        opacity: 1
+      });
+    },
+    'mouseleave': function mouseleave() {
+      TweenMax.to('#workA .workPhoto', 0.5, {
+        opacity: 0
+      });
+      TweenMax.to('#workA .workText', 0.5, {
+        opacity: 1
+      });
+      $(this).removeAttr('id', "workA");
+    }
+  });
+} //blog page
 
-$('.blogBox').on({
-  'mouseenter': function mouseenter() {
-    $(this).attr('id', "blogA");
-    TweenMax.to('#blogA .blogTitle', 0.2, {
-      opacity: 0
-    });
-    TweenMax.to('#blogA .blogTagBox', 0.2, {
-      opacity: 0
-    });
-    TweenMax.to('#blogA', {
-      backgroundImage: "url('/images/qiitalogo.png')",
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-      backgroundPosition: "center"
-    });
-  },
-  'mouseleave': function mouseleave() {
-    TweenMax.to('#blogA .blogTitle', 0.2, {
-      opacity: 1
-    });
-    TweenMax.to('#blogA .blogTagBox', 0.2, {
-      opacity: 1
-    });
-    TweenMax.to('#blogA', {
-      backgroundImage: "none"
-    });
-    $(this).removeAttr('id', "blogA");
-  }
-}); // contact page
 
-$('.contactIcons i').on({
-  'mouseenter': function mouseenter() {
-    $(this).attr('id', "iconA");
-    TweenMax.to('#iconA', 0.2, {
-      color: "rgb(245, 245, 245)"
-    });
-  },
-  'mouseleave': function mouseleave() {
-    TweenMax.to('#iconA', 0.2, {
-      color: " rgb(146, 146, 146)"
-    });
-    $(this).removeAttr('id', "iconA");
-  }
-});
+if (!navigator.userAgent.match(/(iPhone|iPad|Andoroid)/)) {
+  $('.blogBox').on({
+    'mouseenter': function mouseenter() {
+      $(this).attr('id', "blogA");
+      TweenMax.to('#blogA .blogTitle', 0.2, {
+        opacity: 0
+      });
+      TweenMax.to('#blogA .blogTagBox', 0.2, {
+        opacity: 0
+      });
+      TweenMax.to('#blogA', {
+        backgroundImage: "url('/images/qiitalogo.png')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+      });
+    },
+    'mouseleave': function mouseleave() {
+      TweenMax.to('#blogA .blogTitle', 0.2, {
+        opacity: 1
+      });
+      TweenMax.to('#blogA .blogTagBox', 0.2, {
+        opacity: 1
+      });
+      TweenMax.to('#blogA', {
+        backgroundImage: "none"
+      });
+      $(this).removeAttr('id', "blogA");
+    }
+  });
+} // contact page
+
+
+if (!navigator.userAgent.match(/(iPhone|iPad|Andoroid)/)) {
+  $('.contactIcons i').on({
+    'mouseenter': function mouseenter() {
+      $(this).attr('id', "iconA");
+      TweenMax.to('#iconA', 0.2, {
+        color: "rgb(245, 245, 245)"
+      });
+    },
+    'mouseleave': function mouseleave() {
+      TweenMax.to('#iconA', 0.2, {
+        color: " rgb(146, 146, 146)"
+      });
+      $(this).removeAttr('id', "iconA");
+    }
+  });
+}
 
 /***/ }),
 
