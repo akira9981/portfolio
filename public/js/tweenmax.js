@@ -359,14 +359,17 @@ $('.miniBoxes').on({
 
 $('.myPhoto').on({
   'mouseenter': function mouseenter() {
-    TweenMax.to('.myPhoto', 1, {
+    TweenMax.to('.myPhoto', 0.5, {
       borderRadius: 0,
-      backgroundImage: "url"
+      backgroundImage: "url('/images/live.jpg')",
+      backgroundSize: "800px"
     });
   },
   'mouseleave': function mouseleave() {
-    TweenMax.to('.myPhoto', 1, {
-      borderRadius: "50%"
+    TweenMax.to('.myPhoto', 0.5, {
+      borderRadius: "50%",
+      backgroundImage: "url('/images/kaiyu.jpg')",
+      backgroundSize: "550px"
     });
   }
 }); // skill page

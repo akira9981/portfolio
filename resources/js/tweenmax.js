@@ -183,10 +183,10 @@ $('.miniBoxes').on({
 // about page
 $('.myPhoto').on({
   'mouseenter': function(){
-    TweenMax.to('.myPhoto', 1, {borderRadius: 0, backgroundImage: "url"});
+    TweenMax.to('.myPhoto', 0.5, {borderRadius: 0, backgroundImage: "url('/images/live.jpg')", backgroundSize: "800px"});
   },
   'mouseleave': function(){
-    TweenMax.to('.myPhoto', 1, {borderRadius: "50%"});
+    TweenMax.to('.myPhoto', 0.5, {borderRadius: "50%", backgroundImage: "url('/images/kaiyu.jpg')", backgroundSize: "550px"});
   }
 });
 
