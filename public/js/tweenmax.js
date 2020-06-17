@@ -129,14 +129,25 @@ ope.to('.opb', 1, {
   delay: 0.5,
   ease: 'elastic',
   top: '50%'
-}).add('ope1').to('.opb', 0.5, {
+}).add('ope1').to('.opb', 0.2, {
   height: "30vh",
   width: "100vw",
-  borderRadius: 0
-}, 'ope1').add('.ope2') // .to( '.opb p', 8, {left: "0%"}, 'ope2' )
-.add('scene3').to('.square', 8, {
-  top: "0%"
-}, 'scene3'); // square 
+  borderRadius: 0,
+  backgroundColor: "rgb(0, 140, 255)"
+}, 'ope1').add('.ope2').to('.opb p', 1, {
+  ease: "power4",
+  left: 0
+}, 'ope2').add('ope3').to('.opb p', 0.5, {
+  opacity: 0
+}, 'ope3').add('ope4').to('.opb', 0.5, {
+  height: "100vh"
+}, 'ope4').add('ope5').to('.bbg', 0.1, {
+  display: "none"
+}, 'ope5').add('ope6').to('.opb', 0.5, {
+  opacity: 0
+}, 'ope6').add('ope7').to('.opb', 0.1, {
+  display: "none"
+}, 'ope7'); // square 
 
 var stl = new TimelineMax({
   repeat: -1

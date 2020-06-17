@@ -9,10 +9,12 @@
   border-radius: 50%;
   background-color: #fff;
   z-index: 999;
+  overflow: hidden;
 }
 .opb p {
   display: inline-block;
   position: absolute;
+  left: 100%;
   font-size: 30vh;
   margin: 0;
   color: #000;

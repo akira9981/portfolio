@@ -9,10 +9,11 @@
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   z-index: 999;
+  overflow: hidden;
   p{
     display: inline-block;
     position: absolute;
-
+    left: 100%;
     font-size: 30vh;
     margin: 0;
     color: rgb(0, 0, 0);
