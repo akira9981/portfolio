@@ -22,7 +22,7 @@
   <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
 </head>
 <body>
-<div class="opb"><i class="fas fa-cloud"></i></div>
+<div class="opb"><p>welcome</p></div>
 <div class="bbg"></div>
 <div class="squareContent">
   <div class="square">

@@ -1,34 +1,43 @@
 // op effect
-TweenMax.to('.opb', 1.25,
-  {
-    delay: 0.5,
-    ease: 'elastic',
-    top: '50%',
-    onComplete: function(){
-      TweenMax.to('.opb i', 0.5, {delay: 0.2,fontSize: "60vw"});
-      TweenMax.to('.opb', 0.5, 
-      {
-        backgroundColor: "rgb(255, 255, 255)",
-        delay: 0.3,
-        height: "100%", 
-        width:"100%",
-        onComplete: function(){
-          TweenMax.to('.bbg', {top: "100vh", display: "none"});
-          TweenMax.to('.opb', 1,
-            {
-              delay: 0.5,
-              opacity: 0,
-              ease: 'power1',
-              onComplete: function(){
-                TweenMax.to('.opb', {display: "none"});
-              }
-            }
-          );
-        }
-      });
-    }
-  }
-);
+// TweenMax.to('.opb', 1.25,
+//   {
+//     delay: 0.5,
+//     ease: 'elastic',
+//     top: '50%',
+//     onComplete: function(){
+//       TweenMax.to('.opb', 0.5, {width: "100vh"});
+//       TweenMax.to('.opb', 0.5, 
+//       {
+//         backgroundColor: "rgb(255, 255, 255)",
+//         delay: 0.3,
+//         height: "100%", 
+//         width:"100%",
+//         onComplete: function(){
+//           TweenMax.to('.bbg', {top: "100vh", display: "none"});
+//           TweenMax.to('.opb', 1,
+//             {
+//               delay: 0.5,
+//               opacity: 0,
+//               ease: 'power1',
+//               onComplete: function(){
+//                 TweenMax.to('.opb', {display: "none"});
+//               }
+//             }
+//           );
+//         }
+//       });
+//     }
+//   }
+// );
+
+var ope = new TimelineMax
+ope.to('.opb', 1, {delay: 0.5, ease: 'elastic', top: '50%'})
+.add( 'ope1' )
+.to( '.opb', 0.5, {height: "30vh", width: "100vw", borderRadius: 0}, 'ope1' )
+.add('.ope2')
+// .to( '.opb p', 8, {left: "0%"}, 'ope2' )
+.add('scene3')
+.to( '.square', 8, {top: "0%"}, 'scene3' )
 
 // square 
 var stl = new TimelineMax({ repeat: -1});

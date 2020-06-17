@@ -6,14 +6,16 @@
   height: 50px;
   width: 50px;
   text-align: center;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
   z-index: 999;
-  i{
+  p{
+    display: inline-block;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+
+    font-size: 30vh;
+    margin: 0;
+    color: rgb(0, 0, 0);
   }
 }
 
