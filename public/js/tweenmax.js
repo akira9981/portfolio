@@ -94,36 +94,6 @@
 /***/ (function(module, exports) {
 
 // op effect
-// TweenMax.to('.opb', 1.25,
-//   {
-//     delay: 0.5,
-//     ease: 'elastic',
-//     top: '50%',
-//     onComplete: function(){
-//       TweenMax.to('.opb', 0.5, {width: "100vh"});
-//       TweenMax.to('.opb', 0.5, 
-//       {
-//         backgroundColor: "rgb(255, 255, 255)",
-//         delay: 0.3,
-//         height: "100%", 
-//         width:"100%",
-//         onComplete: function(){
-//           TweenMax.to('.bbg', {top: "100vh", display: "none"});
-//           TweenMax.to('.opb', 1,
-//             {
-//               delay: 0.5,
-//               opacity: 0,
-//               ease: 'power1',
-//               onComplete: function(){
-//                 TweenMax.to('.opb', {display: "none"});
-//               }
-//             }
-//           );
-//         }
-//       });
-//     }
-//   }
-// );
 var ope = new TimelineMax();
 ope.to('.opb', 1, {
   delay: 0.5,
