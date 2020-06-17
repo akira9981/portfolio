@@ -2,7 +2,7 @@
 var ope = new TimelineMax
 ope.to('.opb', 1, {delay: 0.5, ease: 'elastic', top: '50%'})
 .add( 'ope1' )
-.to( '.opb', 0.2, {height: "30vh", width: "100vw", borderRadius: 0, backgroundColor: "rgb(0, 140, 255)"}, 'ope1' )
+.to( '.opb', 0.5, {height: "30vh", width: "100vw", borderRadius: 0, backgroundColor: "rgb(0, 140, 255)"}, 'ope1' )
 .add('.ope2')
 .to( '.opb p', 1, {ease: "power4", left: 0}, 'ope2' )
 .add('ope3')

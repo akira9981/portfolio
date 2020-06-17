@@ -99,7 +99,7 @@ ope.to('.opb', 1, {
   delay: 0.5,
   ease: 'elastic',
   top: '50%'
-}).add('ope1').to('.opb', 0.2, {
+}).add('ope1').to('.opb', 0.5, {
   height: "30vh",
   width: "100vw",
   borderRadius: 0,
