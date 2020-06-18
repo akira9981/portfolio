@@ -10,6 +10,9 @@
   background-color: rgb(255, 255, 255);
   z-index: 999;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   p{
     display: inline-block;
     position: absolute;

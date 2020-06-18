@@ -10,6 +10,9 @@
   background-color: #fff;
   z-index: 999;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .opb p {
   display: inline-block;

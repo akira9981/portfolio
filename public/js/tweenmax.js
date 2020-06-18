@@ -103,16 +103,17 @@ ope.to('.opb', 1, {
   height: "30vh",
   width: "100vw",
   borderRadius: 0,
-  backgroundColor: "rgb(0, 140, 255)"
+  backgroundImage: "linear-gradient(25deg, rgba(255, 0, 0, 0.418), rgba(82, 243, 255, 0.623)),url('/images/bluesky.jpg')"
 }, 'ope1').add('.ope2').to('.opb p', 1, {
   ease: "power4",
   left: 0
-}, 'ope2').add('ope3').to('.opb p', 0.5, {
+}, 'ope2').add('ope3').to('.opb p', 0.3, {
   opacity: 0
 }, 'ope3').add('ope4').to('.opb', 0.5, {
   height: "100vh"
 }, 'ope4').add('ope5').to('.bbg', 0.1, {
-  display: "none"
+  display: "none",
+  top: "100vh"
 }, 'ope5').add('ope6').to('.opb', 0.5, {
   opacity: 0
 }, 'ope6').add('ope7').to('.opb', 0.1, {
