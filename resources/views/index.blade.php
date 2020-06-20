@@ -47,7 +47,10 @@
         <h2>About Me</h2>
         <p>
           大学卒業後、新卒で証券会社へ入社。<br>
-          
+          ooooooooooo<br>
+          ooooooooooo<br>
+          <br>
+          oo<br>
         </p>
       </div>
     </div>

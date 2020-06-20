@@ -42,3 +42,8 @@
   color: #fff;
   border: solid 1px #fff;
 }
+.about .mainContent .aboutBox .aboutMeBox p {
+  margin-left: 10px;
+  text-align: left;
+  line-height: 50px;
+}
