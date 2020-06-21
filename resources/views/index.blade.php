@@ -46,11 +46,16 @@
       <div class="aboutMeBox">
         <h2>About Me</h2>
         <p>
-          大学卒業後、新卒で証券会社へ入社。<br>
-          ooooooooooo<br>
-          ooooooooooo<br>
+          初めまして、Akira Yamashitaと申します。<br>
           <br>
-          oo<br>
+          大学卒業後、証券会社に就職。<br>
+          新規開拓営業を中心に営業活動を行っておりました。
+          <br>
+          その一方で、webアプリ制作に興味を持ち<br>
+          2019年10月からプログラミングの学習を開始。<br>
+          <br>
+          現在、webエンジニアになるため転職活動中です。<br>
+          お気軽にDM等でご連絡お待ちしております！<br>
         </p>
       </div>
     </div>
