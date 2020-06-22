@@ -7,6 +7,7 @@
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+    cursor: pointer;
     .flex-box{
       display: flex;
       .box{

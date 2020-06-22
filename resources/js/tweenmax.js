@@ -1,6 +1,6 @@
 // op effect
 var ope = new TimelineMax
-ope.to('.opb', 1, {delay: 0.5, ease: 'elastic', top: '50%'})
+ope.to('.opb', 1, {delay: 1, ease: 'elastic', top: '50%'})
 .add( 'ope1' )
 .to( '.opb', 0.5, {height: "30vh", width: "100vw", borderRadius: 0, backgroundImage: "linear-gradient(25deg, rgba(255, 0, 0, 0.418), rgba(82, 243, 255, 0.623)),url('/images/bluesky.jpg')"}, 'ope1' )
 .add('.ope2')

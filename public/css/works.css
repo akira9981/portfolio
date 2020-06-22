@@ -15,6 +15,7 @@
   width: 400px;
   margin: 60px 30px;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 .works .worksContener .rotateBox .workText {
   position: absolute;

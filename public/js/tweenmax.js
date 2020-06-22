@@ -96,7 +96,7 @@
 // op effect
 var ope = new TimelineMax();
 ope.to('.opb', 1, {
-  delay: 0.5,
+  delay: 1,
   ease: 'elastic',
   top: '50%'
 }).add('ope1').to('.opb', 0.5, {

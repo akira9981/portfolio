@@ -9,6 +9,7 @@ header .miniBoxes {
   position: absolute;
   bottom: 0;
   right: 30px;
+  cursor: pointer;
 }
 header .miniBoxes .flex-box {
   display: flex;
