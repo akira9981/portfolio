@@ -185,7 +185,7 @@ $('.obj').on({
 }); // index window
 
 TweenMax.staggerTo('.box', 1.5, {
-  delay: 3,
+  delay: 4,
   rotationX: -360
 }, 0.1);
 $('.box').on({
