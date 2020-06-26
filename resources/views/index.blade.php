@@ -177,10 +177,10 @@
         <a href="https://qiita.com/gongyro/items/da734cf4d8fabc8fe7ff" target="_blank"></a>
       </div>
       <div class="blogBox">
-        <div class="blogTitle">hPのバージョンアップグレード</div>
+        <div class="blogTitle">パッケージの脆弱性</div>
         <div class="blogTagBox">
-          <div class="blogTag">homebrew</div>
-          <div class="blogTag">PHP</div>
+          <div class="blogTag">npm</div>
+          <div class="blogTag">Laravel</div>
         </div>
       </div>
     </div>
