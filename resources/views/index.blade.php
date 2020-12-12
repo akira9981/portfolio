@@ -46,13 +46,13 @@
       <div class="aboutMeBox">
         <h2>About Me</h2>
         <p>
-          初めまして、Akira Yamashitaと申します。<br>
+          初めまして、A.Yと申します。<br>
           <br>
           大学卒業後、証券会社に就職。<br>
           新規開拓営業を中心に営業活動を行っておりました。
           <br>
           その一方で、webアプリ制作に興味を持ち<br>
-          2019年10月からプログラミングの学習を開始。<br>
+          2020年4月からプログラミングの学習を開始。<br>
           <br>
           現在、webエンジニアになるため転職活動中です。<br>
           お気軽にDM等でご連絡お待ちしております！<br>
@@ -122,6 +122,14 @@
     <div class="worksContener">
       <div class="rotateBox">
         <div class="workText">
+            <i class="fas fa-shopping-cart"></i>
+            <p>音楽ライブ　マッチングサイト[Laravel]</p>
+            <h1>Live Match</h1>
+        </div>
+        <div class="workPhoto"><a href="http://13.114.50.233/" target=”_blank”><img class='workImage' src="{{ asset('images/sample.jpg') }}"></a></div>
+      </div>
+      <div class="rotateBox">
+        <div class="workText">
           <i class="fas fa-headphones"></i>
           <p>楽曲レヴューサイト[Laravel]</p>
           <h1>StockSound</h1>
@@ -135,14 +143,6 @@
           <h1>Memolist</h1>
         </div>
         <div class="workPhoto"><a href="http://infinite-garden-71834.herokuapp.com/login" target=”_blank”><img class='workImage' src="{{ asset('images/memolist.jpg') }}"></a></div>
-      </div>
-      <div class="rotateBox">
-        <div class="workText">
-            <i class="fas fa-shopping-cart"></i>
-            <p>TECH::CAMP チーム開発課題[Rails]</p>
-            <h1>Mercari clone</h1>
-        </div>
-        <div class="workPhoto"><a href="http://52.198.209.142/" target=”_blank”><img class='workImage' src="{{ asset('images/mercari.jpg') }}"></a></div>
       </div>
     </div>
   </div>
