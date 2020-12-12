@@ -122,7 +122,7 @@
     <div class="worksContener">
       <div class="rotateBox">
         <div class="workText">
-            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-users"></i>
             <p>音楽ライブ　マッチングサイト[Laravel]</p>
             <h1>Live Match</h1>
         </div>
