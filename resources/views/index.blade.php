@@ -52,7 +52,7 @@
           新規開拓営業を中心に営業活動を行っておりました。
           <br>
           その一方で、webアプリ制作に興味を持ち<br>
-          2020年4月からプログラミングの学習を開始。<br>
+          2020年４月からプログラミングの学習を開始。<br>
           <br>
           現在、webエンジニアになるため転職活動中です。<br>
           お気軽にDM等でご連絡お待ちしております！<br>
@@ -175,14 +175,6 @@
           <div class="blogTag">PHP</div>
         </div>
         <a href="https://qiita.com/gongyro/items/da734cf4d8fabc8fe7ff" target="_blank"></a>
-      </div>
-      <div class="blogBox">
-        <div class="blogTitle">パッケージの脆弱性</div>
-        <div class="blogTagBox">
-          <div class="blogTag">npm</div>
-          <div class="blogTag">Laravel</div>
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -213,7 +205,7 @@
         <p>Qiita</p>
       </div>
       <div class='contactIcon'>
-      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=gongyro@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ayten998199@gmai.com" target="_blank"><i class="fas fa-envelope"></i></a>
         <p>Gmail</p>
       </div>
     </div>
