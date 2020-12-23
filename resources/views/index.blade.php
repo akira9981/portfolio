@@ -175,6 +175,7 @@
           <div class="blogTag">PHP</div>
         </div>
         <a href="https://qiita.com/gongyro/items/da734cf4d8fabc8fe7ff" target="_blank"></a>
+      </div>
     </div>
   </div>
 </div>
@@ -201,11 +202,11 @@
         <p>GitHub</p>
       </div>
       <div class='contactIcon'>
-      <a href="https://qiita.com/gongyro" target="_blank"><i class="fas fa-book"></i></a>
+        <a href="https://qiita.com/gongyro" target="_blank"><i class="fas fa-book"></i></a>
         <p>Qiita</p>
       </div>
       <div class='contactIcon'>
-      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ayten998199@gmai.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ayten998199@gmai.com" target="_blank"><i class="fas fa-envelope"></i></a>
         <p>Gmail</p>
       </div>
     </div>
