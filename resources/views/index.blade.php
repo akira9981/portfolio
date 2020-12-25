@@ -126,7 +126,7 @@
             <p>音楽ライブ　マッチングサイト[Laravel]</p>
             <h1>Live Match</h1>
         </div>
-        <div class="workPhoto"><a href="http://13.114.50.233/" target=”_blank”><img class='workImage' src="{{ asset('images/sample.jpg') }}"></a></div>
+        <div class="workPhoto"><a href="http://ec2-13-230-181-212.ap-northeast-1.compute.amazonaws.com/" target=”_blank”><img class='workImage' src="{{ asset('images/sample.jpg') }}"></a></div>
       </div>
       <div class="rotateBox">
         <div class="workText">
