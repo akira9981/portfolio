@@ -194,7 +194,7 @@
   <div class="mainContent">
     <div class='contactIcons'>
       <div class='contactIcon'>
-        <a href="https://twitter.com/gongyro" target=”_blank”><i class="fab fa-twitter"></i></a>
+        <a href="https://twitter.com/AY96756262" target=”_blank”><i class="fab fa-twitter"></i></a>
         <p>Twitter</p>
       </div>
       <div class='contactIcon'>
