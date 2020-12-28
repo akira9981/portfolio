@@ -23,11 +23,10 @@
   width: 450px;
   border: solid 5px #fff;
   border-radius: 50%;
-  background-image: url("/images/vapor.jpg");
+  background-image: url("/images/kaiyu.jpg");
   background-repeat: no-repeat;
   background-position: 0 100%;
   background-size: 550px;
-  color: #000;
 }
 .about .mainContent .aboutBox .myPhotoBox p {
   color: #fff;
