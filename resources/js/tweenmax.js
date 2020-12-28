@@ -172,7 +172,7 @@ $('.myPhoto').on({
     TweenMax.to('.myPhoto', 0.5, {borderRadius: 0, backgroundImage: "url('/images/live.jpg')", backgroundSize: "800px"});
   },
   'mouseleave': function(){
-    TweenMax.to('.myPhoto', 0.5, {borderRadius: "50%", backgroundImage: "url('/images/vapor.jpg')", backgroundSize: "450px"});
+    TweenMax.to('.myPhoto', 0.5, {borderRadius: "50%", backgroundImage: "url('/images/vapor2.jpg')", backgroundSize: "450px"});
   }
 });
 

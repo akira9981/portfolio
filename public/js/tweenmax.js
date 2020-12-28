@@ -360,7 +360,7 @@ $('.myPhoto').on({
   'mouseleave': function mouseleave() {
     TweenMax.to('.myPhoto', 0.5, {
       borderRadius: "50%",
-      backgroundImage: "url('/images/vapor.jpg')",
+      backgroundImage: "url('/images/vapor2.jpg')",
       backgroundSize: "450px"
     });
   }
