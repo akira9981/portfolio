@@ -360,8 +360,8 @@ $('.myPhoto').on({
   'mouseleave': function mouseleave() {
     TweenMax.to('.myPhoto', 0.5, {
       borderRadius: "50%",
-      backgroundImage: "url('/images/kaiyu.jpg')",
-      backgroundSize: "550px"
+      backgroundImage: "url('/images/vapor.jpg')",
+      backgroundSize: "450px"
     });
   }
 }); // skill page
